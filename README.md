@@ -1,1 +1,3 @@
-# NLP-UBC.github.io
+# This is the new UBC NLP Group Website
+
+Welcome!

@@ -1,0 +1,31 @@
+---
+---
+
+<div style='text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px'>
+	<div style='font-family: "Spartan";font-weight:500'>{{ entry.title }}</div>
+	<div style='font-weight:300'>{{ entry.author }}</div>
+	{% if entry.venue and entry.venue != "" and entry.venue != nil %}
+		<div style='font-weight:100; padding-bottom: 5px'>{{ entry.venue }}</div>
+	{% endif %}
+	{% if entry.url and entry.url != "" and entry.url != nil %}
+		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_paper" href='{{ entry.url }}' target="_blank">paper</a>
+	{% endif %}
+	{% if entry.code and entry.code != "" and entry.code != nil %}
+		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_code" href='{{ entry.code }}' target="_blank">code</a>
+	{% endif %}	
+	{% if entry.slides and entry.slides != "" and entry.slides != nil %}
+		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_slides" href='{{ entry.slides }}' target="_blank">slides</a>
+	{% endif %}	
+	{% if entry.video and entry.video != "" and entry.video != nil %}
+		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_video" href='{{ entry.video }}' target="_blank">video</a>
+	{% endif %}	
+	{% if entry.demo and entry.demo != "" and entry.demo != nil %}
+		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_demo" href='{{ entry.demo }}' target="_blank">demo</a>
+	{% endif %}	
+	{% if entry.software and entry.software != "" and entry.software != nil %}
+		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_software" href='{{ entry.software }}' target="_blank">software</a>
+	{% endif %}	
+	{% if entry.documents and entry.documents != "" and entry.documents != nil %}
+		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_documents" href='{{ entry.documents }}' target="_blank">documents</a>
+	{% endif %}
+</div>

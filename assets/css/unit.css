@@ -1,0 +1,16 @@
+/* Unit editable CSS */
+
+/** Unit Bar background gradient and box shadow **/
+#ubc7-unit {
+   background: #2F5D7C;
+}
+
+/** Social Icon **/
+#ubc7-unit-social-icons i {
+    color: #002145;
+}
+
+#ubc7-unit-social-icons a:hover i {
+    color: #2F5D7C;
+}
+

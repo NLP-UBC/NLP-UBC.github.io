@@ -1,0 +1,64 @@
+
+name: UBC NLP group website
+profile:
+  image: banner.png
+  ubc_logo: ubc.png
+  ubc_signature: ubc_dark.png
+  nlp_logo: nlp.png
+  title: <h4><span style='font-weight:700'>UBC</span> <span style='font-weight:100'>NLP</span></h4>
+  email:
+  affiliation: University of British Columbia
+  description:
+            <h6 style='font-weight:600; font-family:"Spartan";'>Welcome to the UBC NLP Website!</h6>
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://nlpat.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# twitter_username: huberpa
+# github_username:  huberpa
+include: ['_pages']
+
+scholar:
+  locale: en
+  bibliography_template: "bib"
+  use_raw_bibtex_entry: true
+  sort_by: none
+  order: ascending
+  group_by: none
+  group_order: ascending
+  bibliography_list_tag: ul
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  people:
+    defaults:
+      layout: post
+    output: true
+    permalink: /people/:path/
+  showcase:
+    defaults:
+      layout: post
+    output: true
+    permalink: /showcase/:path/
+
+# Build settings
+markdown: kramdown
+theme:
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: Nanyang Tech
+job: Faculty at Nanyang Tech University (Singapore)
 ---

@@ -81,7 +81,7 @@ For more detailed information on what role different parts of the repository pla
     │     ├── img                       # Folder containing images
     │     │    ├── people               # Folder for images of group members (pls add images of new group members in here)
     │     │    ├── icons                # Folder for icons
-    │     │    ├── image.png            # Site-wide image
+    │     │    ├── image.png            # Site-wide images
     │     │    └── [new_image.{png|..}] # Additional images can be added here
     │     └── js                        # Folder containing framework and custom JavaScript files
     ├── bin/{cibuild|deploy}            # Deployment code for the github page, do not touch unless broken

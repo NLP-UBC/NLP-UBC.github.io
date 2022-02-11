@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: University of Winnipeg
+job: faculty at University of Winnipeg
 ---

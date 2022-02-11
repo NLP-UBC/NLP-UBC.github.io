@@ -13,8 +13,8 @@ profile:
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://nlp-ubc.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-# twitter_username: huberpa
-# github_username:  huberpa
+# twitter_username: tbd
+# github_username:  tbd
 include: ['_pages']
 
 scholar:
@@ -50,15 +50,4 @@ theme:
 plugins:
   - jekyll-feed
   - jekyll-scholar
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  

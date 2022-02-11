@@ -8,7 +8,7 @@ years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 
 ---
 
 #### Our Group Publications 
-##### (In inverse chronological order)
+##### (In reverse chronological order)
 <br>
 {% for y in page.years %}
   <h5 style='font-family: "Spartan";font-weight:100; text-align: left'>{{y}}</h5>

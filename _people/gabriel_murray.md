@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: Univ of Fraser Valley
+job: Faculty at Univ of Fraser Valley
 ---

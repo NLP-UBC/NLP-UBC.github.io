@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: McGill University
+job: Faculty at McGill University
 ---

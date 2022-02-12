@@ -37,14 +37,14 @@ Everything after the second "---" is the content of the page, formatted in [YAML
 With the website design based on Jekyll, the rather frequent action of adding a new paper to the website has become especially straight-forward. Once you got a paper accepted or published, simply open the ./\_bibliography/papers.bib file and paste the paper BibTex at any position.
 
 To facilitate a variety of additional resources linked to a paper, we set up 8 generic tags
- *  venue: The conference/journal at which the paper has been accepted
- *  url: Link to the paper on the conference/journal website or arxiv
- *  code: Link to available code, e.g., on github
- *  demo: Link to an interactive demo
- *  software: Link to software packages
- *  slides: Link to presentation slides
- *  video: Link to a presentation video or animations
- *  documents: Link to any other documents
+ *  **venue**: The conference/journal at which the paper has been accepted
+ *  **url**: Link to the paper on the conference/journal website or arxiv
+ *  **code**: Link to available code, e.g., on github
+ *  **demo**: Link to an interactive demo
+ *  **software**: Link to software packages
+ *  **slides**: Link to presentation slides
+ *  **video**: Link to a presentation video or animations
+ *  **documents**: Link to any other documents
 
 which can be added to any paper by adding the respective tags to the BibTex file (see below).
 
@@ -76,11 +76,25 @@ years: [NEW_YEAR, 2022, 2021, 2020, 2019, 2018, ...]
 ```
 
 ### Adding News
+To add a news item, create a new markdown (\*.md) file under ./\_news. The name of the file does thereby not matter and can be anything from a simple enumeration to the news topic or date. The general structure should look as follows:
+
+```
+---
+layout: post
+date: DATE_OF_NEWS
+img:
+---
+
+This is the news content
+```
+
+The [front matter](https://jekyllrb.com/docs/front-matter/) requires the date of the item, which is used to determine their order. Be aware, if you backdate news, they will likely not appear on the homepage, where only the latest news are shown. The _img_ tag allows to optionally add an image, which will be shown along with the news text. After the front matter, the content of the file is shown as the news item.
+
 ### Adding, Updating or Removing a Group Member
 ### Adding a New Showcase Project
 
 ## Repository Structure
-For more detailed information on what role different parts of the repository play for the UBC NLp website, please refer to the repository structure below:
+For more detailed information on what role different parts of the repository play for the UBC NLP website, please refer to the repository structure below:
 
     .
     ├── .github/workflows               # Deployment code for the github page, do not touch unless broken

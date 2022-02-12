@@ -52,7 +52,7 @@ which can be added to any paper by adding the respective tags to the BibTex file
 @article{name,
   title={},
   author={},
-  year={2021},
+  year={},
   ...
   venue={},
   url={},
@@ -91,6 +91,35 @@ This is the news content
 The [front matter](https://jekyllrb.com/docs/front-matter/) requires the date of the item, which is used to determine their order. Be aware, if you backdate news, they will likely not appear on the homepage, where only the latest news are shown. The _img_ tag allows to optionally add an image, which will be shown along with the news text. After the front matter, the content of the file is shown as the news item.
 
 ### Adding, Updating or Removing a Group Member
+Another frequent action is adding, updating and removing group members, including faculty, post-docs, students and research associates. 
+
+Adding a new group member is similar to generating a new news item. First, generate a new markdown (\*.md) file under ./\_people. The name of the file can technically be anything, however, we recommend using the group members name. The structure of a group member markdown file looks like this:
+
+```
+---
+layout: post
+date: START_DATE
+name: NAME
+role: PICK_A_ROLE # {faculty|student|postdoc|researcher}
+type: ROLE_SPECIFICATION # e.g., {PhD Candidate|PhD Student|Master Student|Visiting Student|...}
+img: IMAGE.png
+link: URL # Link to the individual professional website
+status: STATUS # {active|inactive}
+research: RESEARCH_AREA # e.g., NLP, Summarization, Question Answering, ...
+job: JOB_AFTER_GRADUATION # Job shown if the group member is inactive
+---
+```
+
+A few notes on creating and updating the group members markdown file: 
+  * Group member files do not contain any content after the [front matter](https://jekyllrb.com/docs/front-matter/)
+  * The _role_ must be one of the pre-defined options (faculty|student|postdoc|researcher)
+  * _type_, _link_ and _research_ are optional free-text fields to specify group members. Despite being optinoal, it is highly encouraged to add information
+  * _img_ contains the filename of a **square-sized** image of the group member, uploaded to ./assets/img/people
+  * The _status_ field indicates if a group member is still an active part of the UBC NLP group. If the member is currently part of the group, set the attribute to _active_, otherwise set to _inactive_, which will move the member from the list of group members into the past members section (bottom of the people page)
+  * _job_ is another optional field reserved for _inactive_ group members, defining their role and company/univeristy after leaving the UBC NLP group
+
+To remove a group member, either the group member markdown file can be deleted from the repository (i.e., hard-delete, the member will be completely gone from the website) or the _status_ can be set to _inactive_ (i.e., moving the member into the past members section).
+
 ### Adding a New Showcase Project
 
 ## Repository Structure

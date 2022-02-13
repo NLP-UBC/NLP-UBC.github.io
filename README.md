@@ -121,6 +121,27 @@ A few notes on creating and updating the group members markdown file:
 To remove a group member, either the group member markdown file can be deleted from the repository (i.e., hard-delete, the member will be completely gone from the website) or the _status_ can be set to _inactive_ (i.e., moving the member into the past members section).
 
 ### Adding a New Showcase Project
+To highlight a completed project beyond the publication list (see section _Adding a New Paper_), we added a _Showcase Projects_ page, where additional details, demos, corpora-links and explanations can be given in a more free-form manner. Every project is represented by a markdown (\*.md) file in the ./\_showcase folder. Again, the name does technically not matter, however, we encourage people to be descriptive with their naming scheme. The structure of a showcase project file looks as follows:
+
+```
+---
+layout: post
+date: DATE
+img: IMAGE.png
+title: TITLE
+link: LINK_ON_IMG
+---
+
+###### We are proudly presenting our new project
+
+TL;DR of the project goals and impact (e.g., a shortened version of the abstract). Try to keep the description to about 1-3 sentences.
+
+List of links and resources.
+```
+
+The [front matter](https://jekyllrb.com/docs/front-matter/) of a showcase project contains the _date_, used for ordering projects in reverse chronological order, an _image_ (which is highly recommended here!!!) as well as a _title_ and _link_.
+
+TODO: Add content description
 
 ## Repository Structure
 For more detailed information on what role different parts of the repository play for the UBC NLP website, please refer to the repository structure below:

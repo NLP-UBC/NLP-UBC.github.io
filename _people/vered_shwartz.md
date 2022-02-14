@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-01-02
+date: 2000-01-02
 name: Vered Shwartz
 role: faculty
 type: Assistant Professor (Computer Science)

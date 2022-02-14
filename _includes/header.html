@@ -2,7 +2,7 @@
   <nav class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-0" style="background-color: #97D4E9; height: 90px; padding:0px;" >
     <div class="col l12 m12 s12" style="height: 90px; padding:0px;">
       <div class="col l3 m8 s8 left-align z-depth-0" >
-        <img src="{{ site.profile.ubc_logo | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="height:80%; max-height: 80px; max-width:120%; padding-top:15px; padding-left:15px; float: left; overflow: hidden;">
+        <img src="{{ site.profile.ubc_logo | prepend: '/assets/img/' | prepend: site.url }}" style="height:80%; max-height: 80px; max-width:120%; padding-top:15px; padding-left:15px; float: left; overflow: hidden;">
       </div>
       <div class="nav-wrapper" style="line-height:1.2;">
       <!--<img src="{{ site.profile.nlp_logo | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="height:120px; margin-top: 20px; float: center;">-->
@@ -10,11 +10,11 @@
         <a href="#" data-target="mobile" class="sidenav-trigger"><i class="large material-icons" style="color: #002145; font-size: 30px">menu</i></a>
       </div>
       <div class="right hide-on-med-and-down" style="padding-bottom: 0px; padding-top:30px; padding-right:10px; float:right;">
-        <span class="z-depth-1 waves-effect waves" style="padding: 6px;"><a style="color: #002145; font-size:11pt; font-weight:300" class="navbar-anchor" href="{{ site.baseurl | prepend: site.url }}/"><b>Home</b></a></span>
+        <span class="z-depth-1 waves-effect waves" style="padding: 6px;"><a style="color: #002145; font-size:11pt; font-weight:300" class="navbar-anchor" href="{{ site.url }}/"><b>Home</b></a></span>
         {% for page in site.pages %}
         {% if page.title and page.url != "/" %}
         {% if page.in_navbar  == true %}
-          <span class="z-depth-1 waves-effect waves" style="padding: 6px;"><a style="color: #002145; font-size:11pt; font-weight:300" class="navbar-anchor" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><b>{{ page.title }}</b></a></span> 
+          <span class="z-depth-1 waves-effect waves" style="padding: 6px;"><a style="color: #002145; font-size:11pt; font-weight:300" class="navbar-anchor" href="{{ page.url |  prepend: site.url }}"><b>{{ page.title }}</b></a></span> 
         {% endif %}
         {% endif %}
       {% endfor %}
@@ -22,7 +22,7 @@
     </div>
     </div>
   <div class="col l12 m12 s12 left-align z-depth-0 valign-wrapper" style="background-color: #002145; height: 80px; width: 100%">
-    <img src="{{ site.profile.nlp_logo | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="height:60px; padding-left:10px; float: right;">
+    <img src="{{ site.profile.nlp_logo | prepend: '/assets/img/' | prepend: site.url }}" style="height:60px; padding-left:10px; float: right;">
     <p style="line-height:1.5; margin-left: 20px">
         <span>Computer Science and Linguistics</span><br />
         <span style="font-size:14pt">Natural Language Processing Group</span>
@@ -31,11 +31,11 @@
   </nav>
 </div>
 <ul class="sidenav" id="mobile">
-  <div style="padding: 10px; margin-top: 10px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="{{ site.baseurl | prepend: site.url }}/"><b>Home</b></a></div>
+  <div style="padding: 10px; margin-top: 10px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="{{ prepend: site.url }}/"><b>Home</b></a></div>
     {% for page in site.pages %}
     {% if page.title and page.url != "/" %}
     {% if page.in_navbar  == true %}
-      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><b>{{ page.title }}</b></a></div>
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="{{ page.url | prepend: site.url }}"><b>{{ page.title }}</b></a></div>
     {% endif %}
     {% endif %}
   {% endfor %}

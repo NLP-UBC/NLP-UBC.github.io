@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project_page
 permalink: /mega-dt/
 title: MEGA-DT
 in_navbar: false
@@ -9,23 +9,22 @@ img:
 #### MEGA RST Discourse Treebanks with Structure and Nuclearity from Scalable Distant Sentiment Supervision (EMNLP 2020)
 
 ##### Abstract
-<p>TO ADD</p>
+The lack of large and diverse discourse treebanks hinders the application of data-driven approaches, such as deep-learning, to RST-style discourse parsing. In this work, we present a novel scalable methodology to automatically generate discourse treebanks using distant supervision from sentiment-annotated datasets, creating and publishing MEGA-DT, a new large-scale discourse-annotated corpus. Our approach generates discourse trees incorporating structure and nuclearity for documents of arbitrary length by relying on an efficient heuristic beam-search strategy, extended with a stochastic component. Experiments on multiple datasets indicate that a discourse parser trained on our MEGA-DT treebank delivers promising inter-domain performance gains when compared to parsers trained on human-annotated discourse corpora.
 
 ##### Source code
-<p><a href="https://github.com/nlpat/MEGA-DT">Github</a></p>
+[Github](https://github.com/nlpat/MEGA-DT)
 
 ##### Paper
-<p><a href='https://www.aclweb.org/anthology/2020.emnlp-main.603/'>ACL Anthology</a>, <a href='https://arxiv.org/abs/2011.03017'>ArXiv</a></p>
+[ACL Anthology](https://www.aclweb.org/anthology/2020.emnlp-main.603/)
+
+[ArXiv](https://arxiv.org/abs/2011.03017)
 
 ##### Dataset
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-</style>
 <div id="mc_embed_signup">
 <form action="https://ubc.us7.list-manage.com/subscribe/post?u=b9676ec5adca06377da9ed08f&amp;id=872526054c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
+<div id="mc_embed_signup_scroll">
 
 <div class="mc-field-group">
     <label for="mce-EMAIL">Email Address </label>
@@ -43,7 +42,7 @@ img:
     <strong>License Agreement </strong>
     <div style='background-color: #ffdddd; margin: 20px; padding-top: -4px; padding-left: 4px; padding-right: 4px'>
     <h4>SOFTWARE/DATASET LICENSE AGREEMENT</h4>
-    <div style='height: 150px; overflow:auto;'>
+    <div style='height: 300px; overflow:auto;'>
     IMPORTANT! The Software/Dataset you seek to use is licensed only on the condition that YOU agree with The University of British Columbia to the terms and conditions set forth below. <br/><br/>
 
     PLEASE CAREFULLY READ THE TERMS OF THIS SOFTWARE LICENSE AGREEMENT. <br/><br/>
@@ -95,12 +94,22 @@ img:
     MILNet, Copyright (c) Stefanos Angelidis, found here: https://github.com/stangelid/oposum<br/><br/>
     </div>
 </div>
-<ul><li><input type="checkbox" value="1" required name="group[78430][1]" id="mce-group[78430]-78430-0"><label for="mce-group[78430]-78430-0"> I Agree to the Terms and Conditions of the License Agreement.</label></li>
+<ul><li>
+    <label>
+    <input type="checkbox" value="1" required name="group[78430][1]" id="mce-group[78430]-78430-0" />
+    <span for="mce-group[78430]-78430-0"> I Agree to the Terms and Conditions of the License Agreement.</span>
+    </label>
+   </li>
 </ul>
 </div>
 <div class="mc-field-group input-group">
     <strong>Updates </strong>
-    <ul><li><input type="checkbox" value="2" name="group[78434][2]" id="mce-group[78434]-78434-0"><label for="mce-group[78434]-78434-0"> Please Notify Me if the Dataset is Updated.</label></li>
+    <ul><li>
+        <label>
+        <input type="checkbox" value="2" name="group[78434][2]" id="mce-group[78434]-78434-0" />
+        <span for="mce-group[78434]-78434-0"> Please Notify Me if the Dataset is Updated.</span>
+        </label>
+    </li>
 </ul>
 </div>
 <div style="display:none" class="mc-field-group input-group">
@@ -131,23 +140,21 @@ img:
         });
     });
 </script>
- <h3>Citation(s)</h3>
-        <ul>
-        <li>
-        <font face="Arial" size="2">If you use our dataset, code or any parts thereof, please cite this paper:<br/>
-        <p style='background-color: #eee; border: 1px solid #999; display: block; padding: 10px; margin-top:10px;'>
-                @inproceedings{huber-carenini-2020-mega,<br/>
-                title = "{MEGA} {RST} Discourse Treebanks with Structure and Nuclearity from Scalable Distant Sentiment Supervision",<br/>
-                author = "Huber, Patrick  and Carenini, Giuseppe",<br/>
-                booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",<br/>
-                month = nov,<br/>
-                year = "2020",<br/>
-                address = "Online",<br/>
-                publisher = "Association for Computational Linguistics",<br/>
-                url = "https://www.aclweb.org/anthology/2020.emnlp-main.603",<br/>
-                pages = "7442--7457",<br/>
-                abstract = "The lack of large and diverse discourse treebanks hinders the application of data-driven approaches, such as deep-learning, to RST-style discourse parsing. In this work, we present a novel scalable methodology to automatically generate discour$
-                }<br/></p>
-</font>
-        </li>
-        </ul>
+<h3>Citation(s)</h3>
+<p>If you use our dataset, code or any parts thereof, please cite this paper:</p>
+<div class="card z-depth-2" style="margin: 20px; background-color: #EDEDEF">
+<p style='display: block; padding: 10px;'>
+        @inproceedings{huber-carenini-2020-mega,<br/>
+        &emsp;&emsp;&emsp;title = "{MEGA} {RST} Discourse Treebanks with Structure and Nuclearity from Scalable Distant Sentiment Supervision",<br/>
+        &emsp;&emsp;&emsp;author = "Huber, Patrick and Carenini, Giuseppe",<br/>
+        &emsp;&emsp;&emsp;booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",<br/>
+        &emsp;&emsp;&emsp;month = nov,<br/>
+        &emsp;&emsp;&emsp;year = "2020",<br/>
+        &emsp;&emsp;&emsp;address = "Online",<br/>
+        &emsp;&emsp;&emsp;publisher = "Association for Computational Linguistics",<br/>
+        &emsp;&emsp;&emsp;url = "https://www.aclweb.org/anthology/2020.emnlp-main.603",<br/>
+        &emsp;&emsp;&emsp;pages = "7442--7457"<br/>
+        }
+</p>
+</div>
+

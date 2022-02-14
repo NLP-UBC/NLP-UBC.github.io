@@ -143,6 +143,29 @@ The [front matter](https://jekyllrb.com/docs/front-matter/) of a showcase projec
 
 After the [front matter](https://jekyllrb.com/docs/front-matter/), the project can be described with standard [YAML](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/) syntax. For consistency between projects, we highly recommend using a Header-6 (###### Title) font for the title. To describe the main content of the project, please limit yourself to a few sentences, to avoid overcrowding of the page. In the final paragraph, add links to further resources and the paper itself.
 
+### Standalone Project Page
+If a section on the showcase page is not enough to describe the project in sufficient detail, or you have additional, custom requirements (e.g., host a dataset, require a user consent form, ...), a stand-alone project page can be created by generating a new markdown (\*.md) file of arbitrary name (ideally the project name) in the ./\_pages folder of the following structure:
+
+```
+---
+layout: page
+permalink: /LINK/
+title: TITLE
+in_navbar: false
+img:
+---
+
+#### Project Title
+
+##### Content Section 1
+...
+
+##### Content Section n
+...
+```
+
+The [front matter](https://jekyllrb.com/docs/front-matter/) _permalink_ defines the relative path to the main webpage at which the project will be published, facilitating deep-linking directly to the project. Further define the _title_ and an optional _img_ to show at the top of the page. Please note: The _in_navbar_ parameter needs to be set to false, to not show the page in the main navigation. At the same time, don't forget to link the standalone page in the publication and the (optional) showcase page (see above sections).
+
 ## Repository Structure
 For more detailed information on what role different parts of the repository play for the UBC NLP website, please refer to the repository structure below:
 

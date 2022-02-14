@@ -2,7 +2,7 @@
 layout: people
 title: People
 in_navbar: true
-permalink: /people/
+permalink: people
 img: icics.jpeg
 
 ---

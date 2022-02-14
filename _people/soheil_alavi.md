@@ -6,7 +6,7 @@ type: PhD
 role: student
 type: PhD Student
 img: soheil-alavi.jpg
-research: NLP
+research: NLP, dialogue, commonsense reasoning
 link: https://www.cs.ubc.ca/~salavis/
 status: active
 ---

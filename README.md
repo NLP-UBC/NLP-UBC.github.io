@@ -202,12 +202,12 @@ For more detailed information on what role different parts of the repository pla
     │     └── [showcase_n.md]           # Additional showcase projects can be added as individual files here
     ├── assets                          # Folder for local assets
     │     ├── css                       # Folder containing framework and custom CSS files
-    │     ├── img                       # Folder containing images
-    │     │    ├── people               # Folder for images of group members (pls add images of new group members in here)
-    │     │    ├── icons                # Folder for icons
-    │     │    ├── image.png            # Site-wide images
-    │     │    └── [new_image.{png|..}] # Additional images can be added here
-    │     └── js                        # Folder containing framework and custom JavaScript files
+    │     ├── js                        # Folder containing framework and custom JavaScript files 
+    │     └── img                       # Folder containing images
+    │          ├── people               # Folder for images of group members (pls add images of new group members in here)
+    │          ├── icons                # Folder for icons
+    │          ├── image.png            # Site-wide images
+    │          └── [new_image.{png|..}] # Additional images can be added here
     ├── bin/{cibuild|deploy}            # Deployment code for the github page, do not touch unless broken
     ├── 404.html                        # Fallback page if requested resource is not available
     ├── Gemfile                         # File containing Ruby gems for plugins

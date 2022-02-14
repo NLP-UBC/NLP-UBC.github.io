@@ -114,7 +114,7 @@ A few notes on creating and updating the group members markdown file:
   * Group member files do not contain any content after the [front matter](https://jekyllrb.com/docs/front-matter/)
   * The _role_ must be one of the pre-defined options (faculty|student|postdoc|researcher)
   * _type_, _link_ and _research_ are optional free-text fields to specify group members. Despite being optinoal, it is highly encouraged to add information
-  * _img_ contains the filename of a **square-sized** image of the group member, uploaded to ./assets/img/people
+  * _img_ contains the filename of a **square-sized** image of the group member, uploaded to ./assets/img/people. To crop your image into square format, we recommend the easy-to-use, free, browser-based tool [Pixlr](https://pixlr.com/e/) or any other photo editing software 
   * The _status_ field indicates if a group member is still an active part of the UBC NLP group. If the member is currently part of the group, set the attribute to _active_, otherwise set to _inactive_, which will move the member from the list of group members into the past members section (bottom of the people page)
   * _job_ is another optional field reserved for _inactive_ group members, defining their role and company/univeristy after leaving the UBC NLP group
 
@@ -139,9 +139,9 @@ TL;DR of the project goals and impact (e.g., a shortened version of the abstract
 List of links and resources.
 ```
 
-The [front matter](https://jekyllrb.com/docs/front-matter/) of a showcase project contains the _date_, used for ordering projects in reverse chronological order, an _image_ (which is highly recommended here!!!) as well as a _title_ and _link_.
+The [front matter](https://jekyllrb.com/docs/front-matter/) of a showcase project contains the _date_, used for ordering projects in reverse chronological order, an _image_ (highly recommended; please use reasonable landscape ratio) as well as a _title_ and _link_.
 
-TODO: Add content description
+After the [front matter](https://jekyllrb.com/docs/front-matter/), the project can be described with standard [YAML](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/) syntax. For consistency between projects, we highly recommend using a Header-6 (###### Title) font for the title. To describe the main content of the project, please limit yourself to a few sentences, to avoid overcrowding of the page. In the final paragraph, add links to further resources and the paper itself.
 
 ## Repository Structure
 For more detailed information on what role different parts of the repository play for the UBC NLP website, please refer to the repository structure below:

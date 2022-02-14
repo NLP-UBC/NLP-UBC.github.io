@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2000-01-02
+date: 2000-01-03
 name: Raymond Ng
 role: faculty
 type: Professor (Computer Science)

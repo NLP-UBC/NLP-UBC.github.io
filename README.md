@@ -148,7 +148,7 @@ If a section on the showcase page is not enough to describe the project in suffi
 
 ```
 ---
-layout: page
+layout: project_page
 permalink: /LINK/
 title: TITLE
 in_navbar: false
@@ -164,7 +164,7 @@ img:
 ...
 ```
 
-The [front matter](https://jekyllrb.com/docs/front-matter/) _permalink_ defines the relative path to the main webpage at which the project will be published, facilitating deep-linking directly to the project. Further define the _title_ and an optional _img_ to show at the top of the page. Please note: The _in_navbar_ parameter needs to be set to false, to not show the page in the main navigation. At the same time, don't forget to link the standalone page in the publication and the (optional) showcase page (see above sections).
+The [front matter](https://jekyllrb.com/docs/front-matter/) _layout_ property needs to be set to _project_page_ standalone projects, adding additional spacing around the content to align with the website design. The _permalink_ defines the relative path to the main webpage at which the project will be published, facilitating deep-linking directly to the project. Further define the _title_ and an optional _img_ to show at the top of the page. Please note: The _in_navbar_ parameter needs to be set to false, to not show the page in the main navigation. At the same time, don't forget to link the standalone page in the publication and the (optional) showcase page (see above sections).
 
 ## Repository Structure
 For more detailed information on what role different parts of the repository play for the UBC NLP website, please refer to the repository structure below:

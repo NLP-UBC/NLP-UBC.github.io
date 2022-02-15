@@ -1,20 +1,17 @@
 
-name: UBC NLP group website
+name: UBC NLP Group
+baseurl: ""
+url: "https://nlp-ubc.github.io"
+twitter_username: UBC_NLP
+github_username:  NLP-UBC
 profile:
   image: banner.png
   ubc_logo: ubc.png
   ubc_signature: ubc_dark.png
   nlp_logo: nlp.png
-  title: <h4><span style='font-weight:700'>UBC</span> <span style='font-weight:100'>NLP</span></h4>
-  email:
+  email: ubc-nlp@cs.ubc.ca
   affiliation: University of British Columbia
-  description:
-            <h6 style='font-weight:600; font-family:"Spartan";'>Welcome to the UBC NLP Website!</h6>
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nlp-ubc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# twitter_username: tbd
-# github_username:  tbd
 include: ['_pages']
 
 scholar:

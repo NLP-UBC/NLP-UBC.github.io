@@ -1,6 +1,6 @@
 ---
 layout: project_page
-permalink: mega-dt
+permalink: /mega-dt
 title: MEGA-DT
 in_navbar: false
 img:

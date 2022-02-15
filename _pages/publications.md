@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: publications
+permalink: /publications
 title: Publications
 in_navbar: true
 img: publications.jpg

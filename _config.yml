@@ -1,5 +1,8 @@
 
 name: UBC NLP Group
+title: UBC NLP Group
+tagline: NLP Group at the University of British Columbia
+description: The Natural Language Processing (NLP) group at University of British Columbia conducts research on core NLP problems, computational linguistics, text mining, and visual text analytics under Profs. Giuseppe Carenini, Raymond Ng and Vered Shwartz. 
 baseurl: ""
 url: "https://nlp-ubc.github.io"
 twitter_username: UBC_NLP

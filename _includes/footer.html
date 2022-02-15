@@ -15,8 +15,8 @@
       <div style="margin: 20px;">
           <b>Find us on</b>
           <div>
-              <img src="{{ 'twitter-square.svg' | prepend: '/assets/img/icons/' | prepend: site.baseurl | prepend: site.url }}" style="height:40px; padding-top:5px; padding-left:5px;">
-              <img src="{{ 'facebook-square.svg' | prepend: '/assets/img/icons/' | prepend: site.baseurl | prepend: site.url }}" style="height:40px; padding-top:5px; padding-left:5px;">
+              <a href="{{ site.twitter_username |  prepend: 'https://twitter.com/' }}"><img src="{{ 'twitter-square.svg' | prepend: '/assets/img/icons/' | prepend: site.url }}" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+              <a href="{{ site.github_username |  prepend: 'https://github.com/' }}"><img src="{{ 'github-square.svg' | prepend: '/assets/img/icons/' | prepend: site.url }}" style="height:40px; padding-top:5px; padding-left:5px;">
           </div>
       </div>
     </div>

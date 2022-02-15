@@ -47,4 +47,5 @@ theme:
 plugins:
   - jekyll-feed
   - jekyll-scholar
+  - jekyll-seo-tag
   

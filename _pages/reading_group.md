@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: reading-group
+permalink: /reading-group
 title: Reading Group
 in_navbar: true
 img:

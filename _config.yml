@@ -10,8 +10,8 @@ profile:
   affiliation: University of British Columbia
   description:
             <h6 style='font-weight:600; font-family:"Spartan";'>Welcome to the UBC NLP Website!</h6>
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://nlp-ubc.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nlp-ubc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # twitter_username: tbd
 # github_username:  tbd

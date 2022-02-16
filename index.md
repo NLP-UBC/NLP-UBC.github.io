@@ -32,7 +32,7 @@ __Natural Language Understanding:__ We are interested in tasks such as machine r
 __Natural Language Generation:__ In particular, we are interested in automatic evaluation of text generation models. 
 
 
-Learn more about <a href='{{ '/people/' | prepend: site.baseurl | prepend: site.url }}'>who we are</a> and <a href='{{ '/publications/' | prepend: site.baseurl | prepend: site.url }}'>what we're doing</a>. 
+Learn more about <a href='{{ '/people' | prepend: site.url }}'>who we are</a> and <a href='{{ '/publications' | prepend: site.url }}'>what we're doing</a>. 
 
 If you're interested in working with us as a grad student, please apply [here](https://www.cs.ubc.ca/students/grad/prospective).
 

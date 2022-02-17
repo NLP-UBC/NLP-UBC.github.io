@@ -7,6 +7,6 @@ role: student
 type: PhD Student
 img: Linzi_Xing.jpg
 link: https://linzixing.me/
-research: NLP, Topic Modelling, Topic Segmentation
+research: NLP, Topic Modelling, Topic Segmentation and Labeling
 status: active
 ---

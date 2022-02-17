@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: 
+job: Amazon
 ---

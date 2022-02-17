@@ -16,15 +16,25 @@
           <b>Find us on</b>
           <div>
               <a href="{{ site.twitter_username |  prepend: 'https://twitter.com/' }}"><img src="{{ 'twitter-square.svg' | prepend: '/assets/img/icons/' | prepend: site.url }}" style="height:40px; padding-top:5px; padding-left:5px;"></a>
-              <a href="{{ site.github_username |  prepend: 'https://github.com/' }}"><img src="{{ 'github-square.svg' | prepend: '/assets/img/icons/' | prepend: site.url }}" style="height:40px; padding-top:5px; padding-left:5px;">
+              <a href="{{ site.github_username |  prepend: 'https://github.com/' }}"><img src="{{ 'github-square.svg' | prepend: '/assets/img/icons/' | prepend: site.url }}" style="height:40px; padding-top:5px; padding-left:5px;"></a>
           </div>
       </div>
     </div>
   </div>
 </div>
 <div class="row z-depth-4" style="margin-bottom: 0px; background-color: #002145;">
-  <div class="col l12 m12 s12 center-align" style="height: 100px;"> 
-      <img src="{{ site.profile.ubc_signature | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="width:15%; min-width:300px; padding-top:15px; padding-left:15px; float: left;">
+  <div class="col l4 m4 s12 center-align"> 
+      <img src="{{ site.profile.ubc_signature | prepend: '/assets/img/' | prepend: site.url }}" style="width:100%; min-width:200px; max-width: 300px; padding-top:15px; padding-left:15px; float: left;">
+  </div>
+
+  <div class="col l8 m8 s12 center-align"> 
+    <div class="col l5 m6 s12" style="color: #EDEDEF; padding-top:18px; padding-right: 5px;">The UBC NLP group is partially sponsored by:
+    </div>
+    <div class="col l7 m6 s12 center-align">
+    {% for sponsor in site.sponsors %}
+    <img src="{{ sponsor | prepend: '/assets/img/' | prepend: site.url }}" style="height:60px; background-color: #EDEDEF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    {% endfor %}
+    </div>
   </div>
 </div>
 </footer>

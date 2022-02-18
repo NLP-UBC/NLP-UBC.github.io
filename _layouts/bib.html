@@ -16,6 +16,9 @@
 	{% if entry.slides and entry.slides != "" and entry.slides != nil %}
 		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_slides" href='{{ entry.slides }}' target="_blank">slides</a>
 	{% endif %}	
+	{% if entry.poster and entry.poster != "" and entry.poster != nil %}
+		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_poster" href='{{ entry.poster }}' target="_blank">slides</a>
+	{% endif %}
 	{% if entry.video and entry.video != "" and entry.video != nil %}
 		<a style='font-weight:200; display: inline-block; margin-bottom:3px' class="citation_badge_video" href='{{ entry.video }}' target="_blank">video</a>
 	{% endif %}	

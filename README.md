@@ -60,6 +60,7 @@ which can be added to any paper by adding the respective tags to the BibTex file
   demo={},
   software={},
   slides={},
+  poster={},
   video={},
   documents={}
 }
@@ -166,6 +167,9 @@ img:
 
 The [front matter](https://jekyllrb.com/docs/front-matter/) _layout_ property needs to be set to _project_page_ standalone projects, adding additional spacing around the content to align with the website design. The _permalink_ defines the relative path to the main webpage at which the project will be published, facilitating deep-linking directly to the project. Further define the _title_ and an optional _img_ to show at the top of the page. Please note: The _in_navbar_ parameter needs to be set to false, to not show the page in the main navigation. At the same time, don't forget to link the standalone page in the publication and the (optional) showcase page (see above sections).
 
+### Adding/Removing a sponsor (e.g., from a grants or awards)
+To recognize the support of industry, governement and non-profit organizations to the UBC NLP group, please add the logo of the supporting entity under ./img/sponsors. By adding the image (ideally close to square-sized) in this folder, the sponsor will automatically appear in the website footer.
+
 ## Repository Structure
 For more detailed information on what role different parts of the repository play for the UBC NLP website, please refer to the repository structure below:
 
@@ -206,6 +210,7 @@ For more detailed information on what role different parts of the repository pla
     │     └── img                       # Folder containing images
     │          ├── people               # Folder for images of group members (pls add images of new group members in here)
     │          ├── icons                # Folder for icons
+    │          ├── sponsors             # Folder for sponsors
     │          ├── image.png            # Site-wide images
     │          └── [new_image.{png|..}] # Additional images can be added here
     ├── bin/{cibuild|deploy}            # Deployment code for the github page, do not touch unless broken

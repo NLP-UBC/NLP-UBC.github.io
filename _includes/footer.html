@@ -31,8 +31,10 @@
     <div class="col l5 m6 s12" style="color: #EDEDEF; padding-top:18px; padding-right: 5px;">The UBC NLP group is partially sponsored by:
     </div>
     <div class="col l7 m6 s12 center-align">
-    {% for sponsor in site.sponsors %}
-    <img src="{{ sponsor | prepend: '/assets/img/' | prepend: site.url }}" style="height:60px; background-color: #EDEDEF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    {% for image in site.static_files %}
+    {% if image.path contains 'img/sponsors' %}
+        <img src="{{ image.path | prepend: site.url }}" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    {% endif %}
     {% endfor %}
     </div>
   </div>

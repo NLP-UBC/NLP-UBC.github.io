@@ -60,6 +60,14 @@ blockquote{
   padding: 3px;
 }
 
+
+.citation_badge_poster {
+  border-radius: 5px;
+  background: Maroon;
+  color:white;
+  padding: 3px;
+}
+
 .citation_badge_video {
   border-radius: 5px;
   background: orange;

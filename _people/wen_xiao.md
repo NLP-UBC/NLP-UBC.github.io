@@ -6,7 +6,7 @@ type: PhD
 role: student
 type: PhD Candidate
 img: wen_xiao.jpg
-research: NLP, summarization
+research: NLP, Text Summarization, Discourse
 link: https://wendy-xiao.github.io/
 status: active
 ---

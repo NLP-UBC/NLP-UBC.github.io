@@ -6,5 +6,6 @@ role: researcher
 img: davepicture.jpg
 link: 
 research: NLP
-status: active
+status: inactive
+job: Data Scientist at Ontopical
 ---

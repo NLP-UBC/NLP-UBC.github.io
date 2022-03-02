@@ -2,7 +2,7 @@
 layout: post
 date: 2020-12-01
 img: textAnalytics.png
-title: ConVis
+title: Text Analytics
 link: google.com
 ---
 

@@ -6,6 +6,6 @@ title: ConVis
 link: google.com
 ---
 
-###### ConVis: A Visual Text Analytic System
+###### Visual Text Analytics of Conversations
 
-We present a visual text analytic system that tightly integrates interactive visualization with novel text mining and summarization techniques to fulfill information needs of users in exploring conversations. We present an interface that visualizes a combination of various metadata and textual analysis results, supporting the user to interactively explore the blog conversations.
+We have developed visual text analytic systems that tightly integrates interactive visualization with novel text mining and summarization techniques to fulfill information needs of users in exploring conversations. In this context, we have investigated techniques for interactive (human-in-the-loop) topic modeling.

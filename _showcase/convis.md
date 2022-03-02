@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-12-01
-img: convis.jpeg
+img: textAnalytics.png
 title: ConVis
 link: google.com
 ---

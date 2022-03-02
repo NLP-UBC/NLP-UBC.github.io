@@ -29,9 +29,9 @@ __Pragmatics and Commonsense Reasoning:__ We are working on acquiring and repres
 
 __Natural Language Understanding:__ We are interested in tasks such as machine reading comprehension and natural language inference, in particular those involving reading between the lines. We are also working on <a href="https://arxiv.org/abs/2109.00087">interpreting figurative language</a>.
 
-__Natural Language Generation:__ We are working in Text Structuring in text2text, data2text and image2text tasks. We are also interested in automatic evaluation of text generation models. 
+__Natural Language Generation:__ We are working on Text Structuring in text2text, data2text and image2text tasks. We are also interested in automatic evaluation of text generation models. 
 
-__Text Analytics:__ We are working on tightly integrate interactive visualization with text mining and summarization techniques for information exploration and scalable decision support.
+__Text Analytics:__ We are working on tightly integrating interactive visualization with text mining and summarization techniques for information exploration and scalable decision support.
 
 
 Learn more about <a href='{{ '/people' | prepend: site.url }}'>who we are</a> and <a href='{{ '/publications' | prepend: site.url }}'>what we're doing</a>. 

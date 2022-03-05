@@ -5,7 +5,7 @@ name: Enamul Hoque
 role: student
 type: 
 img: 
-link: 
+link: https://www.yorku.ca/enamulh/
 status: inactive
 research: 
 job: Faculty at York University

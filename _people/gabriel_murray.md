@@ -5,7 +5,7 @@ name: Gabriel Murray
 role: student
 type: 
 img: 
-link: 
+link: https://gabrielmurray.ca/
 status: inactive
 research: 
 job: Faculty at Univ of Fraser Valley

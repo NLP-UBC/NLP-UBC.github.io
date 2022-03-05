@@ -5,7 +5,7 @@ name: Jackie C. K. Cheung
 role: student
 type: 
 img: 
-link: 
+link: https://www.cs.mcgill.ca/~jcheung/
 status: inactive
 research: 
 job: Faculty at McGill University

@@ -102,7 +102,7 @@ layout: page
       {% endif %}
 
 
-  {% assign select_people = people | where: "status", "inactive" %}
+{% assign select_people = people | where: "status", "inactive" %}
   {% if select_people.size != 0 %}
       <div class="col l12 m12 s12">
       <p style="font-size:25pt; padding: 0px; float:left; margin-top: 75px; margin-bottom: 10px">Past Group Members</p>

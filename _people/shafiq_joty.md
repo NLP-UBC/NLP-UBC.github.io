@@ -5,7 +5,7 @@ name: Shafiq Joty
 role: student
 type: 
 img: 
-link: 
+link: https://raihanjoty.github.io/
 status: inactive
 research: 
 job: Faculty at Nanyang Tech University (Singapore)

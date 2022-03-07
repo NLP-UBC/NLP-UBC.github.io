@@ -7,7 +7,7 @@ role: student
 type: PhD Student
 img: RaymondLi.jpg
 link: 
-research: NLP, InfoViz
+research: Model Interpretability, Visualization
 status: active
 ---
 

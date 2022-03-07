@@ -110,7 +110,11 @@ layout: page
       {% for item in select_people %}
         <div class="col l8 m10 s12 offset-l2 offset-m1">
               <div class="z-depth-2" style="padding: 10px; margin: 5px">
-              <span class="" style="font-size:12pt;">{{ item.name }}</span>
+              {% if item.link and item.link != "" and item.link != nil %}
+                <a href="{{ item.link }}" class="" style="font-size:12pt;">{{ item.name }}</a>
+              {% else %}
+                <span class="" style="font-size:12pt;">{{ item.name }}</span>
+              {% endif %}
               {% if item.job.size > 0 %}
               <span class="" style="font-size:12pt;">(now </span>
               <span class="" style="font-size:12pt;">{{ item.job }})</span>

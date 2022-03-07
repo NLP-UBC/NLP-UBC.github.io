@@ -3,7 +3,6 @@ layout: page
 permalink: /reading-group
 title: Reading Group
 in_navbar: true
-img:
 ---
 
 #### UBC NLP Reading Group

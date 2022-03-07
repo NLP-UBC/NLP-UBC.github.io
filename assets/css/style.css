@@ -5,7 +5,9 @@ body {
 table, tr, td {
     border: none;
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    text-align: center;
+
 }
 
 blockquote{
@@ -24,6 +26,36 @@ blockquote{
   width: 50%;
   margin: 20px;
   min-width:300px;
+}
+
+.showcase_img{
+  float:center;
+  width: 100%;
+  min-width:200px;
+  max-width:400px;
+}
+
+.showcase_img_right{
+  float:right;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+}
+
+.showcase_img_left{
+  float:left;
+  width: 20%;
+  margin: 10px;
+  min-width:200px;
+  max-width:500px;
+}
+
+.showcase_img_left_large{
+  float:left;
+  width: 30%;
+  margin: 10px;
+  min-width:200px;
+  max-width:500px;
 }
 
 .group_fullsize{

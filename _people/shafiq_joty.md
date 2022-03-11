@@ -8,5 +8,5 @@ img:
 link: https://raihanjoty.github.io/
 status: inactive
 research: 
-job: Faculty at Nanyang Tech University (Singapore)
+job: Associate Professor at Nanyang Tech University (Singapore)
 ---

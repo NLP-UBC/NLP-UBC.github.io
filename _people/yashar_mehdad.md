@@ -5,7 +5,7 @@ name: Yashar Mehdad
 role: student
 type: 
 img: 
-link: 
+link: https://www.linkedin.com/in/yasharmehdad/
 status: inactive
 research: 
 job: Senior Scientist Facebook

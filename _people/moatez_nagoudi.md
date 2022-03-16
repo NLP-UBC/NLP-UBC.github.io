@@ -6,6 +6,6 @@ type: Postdoctoral Fellow
 role: postdoc
 img: moatez_nagoudi.png
 link:
-research: NLP, Machine Translation, Language Modeling, Transfer Learning, Style Transfer.
+research: NLP, Machine Translation, Language Modeling, Transfer Learning, Style Transfer
 status: active
 ---

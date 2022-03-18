@@ -6,7 +6,7 @@ type: PhD
 role: student
 type: PhD Track Student
 img: felipe.jpg
-link: https://www.cs.ubc.ca/~felipegp/
+link: https://gonzalezf.github.io/
 research: InfoViz, NLP, Topic Modelling
 status: active
 ---

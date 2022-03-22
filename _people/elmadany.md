@@ -6,6 +6,6 @@ type: Postdoctoral Fellow
 role: postdoc
 img: elmadany.jpg
 link: https://elmadany.github.io/
-research: NLP, Deep Learning, Computational Social Science, Machine Learning, Speech Act, Automatic Speech Recognition, Audio Classification
+research: NLP, Computational Social Science, Speech Act, ASR, Audio Classification
 status: active
 ---

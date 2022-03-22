@@ -6,6 +6,6 @@ type: PhD Student
 role: student
 img: ife_adebara.jpg
 link:
-research: NLP, Deep Learning, Machine Translation, African Languages, Low Resource Languages
+research: NLP, Deep Learning, Machine Translation, Low Resource Languages
 status: active
 ---

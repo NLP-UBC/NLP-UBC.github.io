@@ -6,6 +6,6 @@ type: PhD Student
 role: student
 img: bashar_talafha.png
 link: https://bashartalafha.github.io/
-research: NLP, Speech Representation Learning, Automatic Speech Recognition, Audio Classification, Text-to-Speech, Multi-lingual/Multi-dialectal Information Processing
+research: NLP, Speech Representation Learning, Automatic Speech Recognition
 status: active
 ---

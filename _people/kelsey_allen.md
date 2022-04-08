@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: PhD student at MIT
+job: Research Scientist at DeepMind
 ---

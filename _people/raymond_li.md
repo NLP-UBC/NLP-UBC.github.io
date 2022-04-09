@@ -4,7 +4,7 @@ date: 2019-09-01
 name: Raymond Li
 type: Master's
 role: student
-type: PhD Student
+type: PhD Student (Computer Science)
 img: RaymondLi.jpg
 link: 
 research: Model Interpretability, Visualization

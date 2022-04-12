@@ -6,6 +6,6 @@ type: PhD Student (School of Information)
 role: student
 img: bashar_talafha.png
 link: https://bashartalafha.github.io/
-research: NLP, Speech Representation Learning, Automatic Speech Recognition
+research: NLP, Speech Representation, ASR
 status: active
 ---

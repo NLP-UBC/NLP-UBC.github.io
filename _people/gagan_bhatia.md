@@ -2,7 +2,7 @@
 layout: post
 date: 2022-01-01
 name: Gagan Bhatia
-type: Undergraduate Student
+type: Undergraduate Student (Electrical and Computer Engineering)
 role: student
 img: gagan_bhatia.png
 link: https://gagan3012.github.io/

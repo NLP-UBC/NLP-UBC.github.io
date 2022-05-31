@@ -15,8 +15,7 @@ The UBC NLP reading group (nlp-rg) is organized to discuss recent research paper
 
 To stay up-to-date, please feel free to join our Mailing List by signing up to nlp-rg@cs.ubc.ca through Majordomo. 
 
-Send email -- To: majordomo@cs.ubc.ca
-
-	Message: subscribe nlp-rg@cs.ubc.ca
+Send an email To: majordomo@cs.ubc.ca
+with the Message: subscribe nlp-rg@cs.ubc.ca
 
 For questions, issues and inquiries, please email ubc-nlp@cs.ubc.ca

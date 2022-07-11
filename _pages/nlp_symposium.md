@@ -7,7 +7,7 @@ in_navbar: true
 
 #### UBC NLP Symposium
 
-> Monday, July 18, 9:30 - 17:30 pm <br>
+> Monday, July 18, 9:30 - 17:30 <br>
 > [ICICS X836, UBC (2366 Main Mall, Vancouver)
 ](https://www.cs.ubc.ca/our-department/maps) <br>
 

@@ -18,9 +18,11 @@ in_navbar: true
 #### Title:
 How can we understand the social biases of language models?  
 
+  
 #### Bio:
 I am a PhD candidate based at the University of Amsterdam—supervised by Katrin Schulz and Willem Zuidema. My research focuses on understanding why language models exhibit social biases using interpretability techniques. On top of that, I study how we can reliably measure bias in NLP and try to ground the discussion of bias in the broader societal perspective.
 
+  
 #### Abstract:
 Language Models (LMs) have been shown to learn undesirable biases towards certain social groups, which may unfairly influence the decisions, recommendations or texts that AI systems building on those LMs generate.
 As LMs are readily deployed by companies, governments, and other institutions in applications that directly impact the lives of ordinary citizens, detecting undesirable biases in NLP systems and finding ways to mitigate them has emerged as a prominent research field.

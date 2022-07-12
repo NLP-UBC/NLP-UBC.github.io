@@ -12,7 +12,7 @@ in_navbar: true
 ](https://www.cs.ubc.ca/our-department/maps) <br>
 
 <details>
-  <summary> 1. 09:00 - 10:30 - Invited talk #1. Oskar van der Wal: How can we understand the social biases of language models?
+  <summary> 09:00 - 10:30 - Invited talk #1. Oskar van der Wal: How can we understand the social biases of language models?
 </summary>  
   
 #### Title:
@@ -32,12 +32,16 @@ Second, the field of psychometrics offers extensive expertise on measuring abstr
 
 </details>
 
-2. 10:15 - 10:30 - Break
-3. 10:30 - 11:30 - Student presentation session #1
-4. 11:30 - 12:15 - Discussion #1: challenges and limitations of NLP
-5. 12:15 - 13:30 - Lunch break
+10:15 - 10:30 - Break
+
+10:30 - 11:30 - Student presentation session #1
+
+11:30 - 12:15 - Discussion #1: challenges and limitations of NLP
+
+12:15 - 13:30 - Lunch break
+
 <details>
-  <summary> 6. 13:30 - 15:00 - Invited talk #2. Debora Nozza: Roadmap to universal hate speech detection. </summary> 
+  <summary> 13:30 - 15:00 - Invited talk #2. Debora Nozza: Roadmap to universal hate speech detection. </summary> 
   
 #### Title:
 Roadmap to universal hate speech detection.   
@@ -53,10 +57,13 @@ Solving these challenges will revolutionize the field of hate speech detection a
 
 </details>
 
-7. 15:00 - 15:30 - Break
-8. 15:30 - 16:30 - Student presentation session #2
-9. 16:30 - 17:00 - Discussion #2: the future of NLP and its potential benefits
-10. 17:00 - 17:10 - Conclusion
+15:00 - 15:30 - Break
+
+15:30 - 16:30 - Student presentation session #2
+
+16:30 - 17:00 - Discussion #2: the future of NLP and its potential benefits
+
+17:00 - 17:10 - Conclusion
 
 
 For questions, issues and inquiries, please email vshwartz@cs.ubc.ca or zeerak_talat@sfu.ca.

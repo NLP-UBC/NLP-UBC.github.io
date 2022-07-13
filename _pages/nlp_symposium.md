@@ -15,7 +15,7 @@ in_navbar: true
   <summary> 09:00 - 10:30 - Invited talk #1. Oskar van der Wal: How can we understand the social biases of language models?
 </summary>  
   
-#### Title:
+<h4> Title </h4>:
 How can we understand the social biases of language models?  
 
   

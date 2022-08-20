@@ -2,7 +2,7 @@
 layout: post
 date: 2018-09-03
 name: Ifeoluwanimi Adebara
-type: PhD Student (Linguistics)
+type: PhD Candidate (Linguistics)
 role: student
 img: ife_adebara.jpg
 link:

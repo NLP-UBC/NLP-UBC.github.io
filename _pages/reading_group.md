@@ -18,4 +18,6 @@ To stay up-to-date, please feel free to join our Mailing List by signing up to n
 Send an email To: majordomo@cs.ubc.ca
 with the Message: subscribe nlp-rg [your CWL username]@cs.ubc.ca
 
+(* Leave subject line empty, put message in body, and use your UBC email.)
+
 For questions, issues and inquiries, please email ubc-nlp@cs.ubc.ca

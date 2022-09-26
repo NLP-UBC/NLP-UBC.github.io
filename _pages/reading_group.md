@@ -9,7 +9,7 @@ in_navbar: true
 
 The UBC NLP reading group (nlp-rg) is organized to discuss recent research papers in NLP. We are currently meeting on:
 
-> Wednesdays, 12pm - 1pm <br>
+> Friday, 12pm - 1pm <br>
 > [ICCS 146](https://www.cs.ubc.ca/our-department/maps) <br>
 > (*2022 Winter Term*)
 

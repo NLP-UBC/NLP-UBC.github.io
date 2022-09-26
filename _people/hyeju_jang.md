@@ -6,5 +6,6 @@ role: researcher
 img: hyeju.jpg
 research: NLP
 link: https://www.cs.ubc.ca/~hyejuj/
-status: active
+status: inactive
+job: Assistant Professor at IUPUI
 ---

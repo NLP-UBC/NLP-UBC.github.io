@@ -6,6 +6,7 @@ role: student
 type: Visiting PhD Student
 img: chuyuan.jpg
 link: 
-research: NLP. Discourse, Dialogue
-status: active
+research: NLP, Discourse, Dialogue
+status: inactive
+job: PhD student at LORIA
 ---

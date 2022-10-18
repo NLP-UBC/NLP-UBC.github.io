@@ -6,8 +6,8 @@ role: student # {faculty|student|postdoc|researcher}
 type: PhD Candidate (Computer Science)
 img: patrick_h.jpg
 link: https://www.cs.ubc.ca/~huberpat/ # Link to the individual professional website
-status: active # {active|inactive}
+status: inactive # {active|inactive}
 research: NLP, Discourse, Question Answering, Summarization
-job:
+job: Research Scientist at Meta AI
 ---
 

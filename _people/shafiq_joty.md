@@ -8,6 +8,6 @@ img:
 link: https://raihanjoty.github.io/
 status: inactive
 research: 
-job: Associate Professor at Nanyang Tech University (Singapore) on-leave.  Now Research Director
+job: Associate Professor at Nanyang Tech University (Singapore) on-leave. Now Research Director
 Salesforce AI Research
 ---

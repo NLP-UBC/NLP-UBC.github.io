@@ -2,7 +2,7 @@
 layout: page
 permalink: /nlp-symposium
 title: NLP Symposium
-in_navbar: true
+in_navbar: false
 ---
 
 #### UBC NLP Symposium

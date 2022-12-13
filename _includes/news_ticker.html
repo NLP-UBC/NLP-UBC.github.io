@@ -1,5 +1,5 @@
 <!-- Large size, have the Ticker on the right side-->
-<div class="z-depth-0 hide-on-med-and-down" style="min-width: 300px; background-color: #FFFFFF; margin-bottom: 20px; margin-left:10px; width:50%; padding: 10px; float:right;">
+<div class="z-depth-0 hide-on-med-and-down" style="min-width: 300px; background-color: #FFFFFF; margin-bottom: 20px; margin-left:10px; width:50%; padding: 10px; float:left;">
 	<h5>News and Events</h5>
 		{% assign sorted = (site.news | sort: 'date') | reverse %}
 	    {% for item in sorted limit:3 %}

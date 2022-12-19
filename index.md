@@ -8,9 +8,6 @@ permalink: /
 ### NLP research at UBC
 ---
 
-{% include news_ticker.html %}
-{% include twitter_feed.html %}
-
 |![Group Photo](/assets/img/group.jpg){: .group_image .z-depth-2}|
 |*Some group members (December 2021)*|
 {: .group .hide-on-med-and-down}
@@ -18,6 +15,9 @@ permalink: /
 |![Group Photo](/assets/img/group.jpg){: .group_image .z-depth-2}|
 |*Some group members (December 2021)*|
 {: .group_fullsize .hide-on-large-only}
+
+{% include news_ticker.html %}
+{% include twitter_feed.html %}
 
 The Natural Language Processing (NLP) group at <a href="https://www.cs.ubc.ca/">University of British Columbia</a> conducts research on core NLP problems, computational linguistics, text mining, and visual text analytics. 
 We focus on the following research areas in particular (but not limited to):

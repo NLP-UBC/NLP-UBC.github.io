@@ -7,5 +7,5 @@ role: student
 img: patrick_b.jpg
 link: 
 research: NLP
-status: active
+status: inactive
 ---

@@ -8,6 +8,8 @@ permalink: /
 ### NLP research at UBC
 ---
 
+{% include news_ticker.html %}
+
 |![Group Photo](/assets/img/group.jpg){: .group_image .z-depth-2}|
 |*Some group members (December 2021)*|
 {: .group .hide-on-med-and-down}
@@ -19,7 +21,6 @@ permalink: /
 The Natural Language Processing (NLP) group at <a href="https://www.cs.ubc.ca/">University of British Columbia</a> conducts research on core NLP problems, computational linguistics, text mining, and visual text analytics. 
 We focus on the following research areas in particular (but not limited to):
 
-{% include news_ticker.html %}
 {% include twitter_feed.html %}
 
 __Discourse and Summarization:__ We are working on discourse parsing, coreference resolution, and automatic summarization, with a focus on long documents. We are also working on analyzing conversations (such as emails, [meetings](http://www.cs.ubc.ca/%7Ecarenini/PAPERS/birte2012-RashidCarenini.pdf), blogs, and chats), 

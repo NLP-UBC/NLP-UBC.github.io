@@ -21,7 +21,7 @@
 </div>
 
 <!-- Small size, have the Ticker full size-->
-<div class="z-depth-1 hide-on-large-only" style="min-width: 300px; background-color: #FFFFFF; margin-bottom: 20px; margin-left:10px; margin-right:10px; width:100%; padding: 10px; float:right; height:400px; overflow:auto; border-radius: 10px;">
+<div class="z-depth-1 hide-on-large-only" style="min-width: 300px; background-color: #FFFFFF; margin-bottom: 20px; margin-left:10px; width:100%; padding: 10px; float:right; height:400px; overflow:auto; border-radius: 10px;">
     <h5>News and Events</h5>
         {% assign sorted = (site.news | sort: 'date') | reverse %}
         {% for item in sorted limit:3 %}

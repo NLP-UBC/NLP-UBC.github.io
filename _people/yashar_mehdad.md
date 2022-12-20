@@ -8,5 +8,5 @@ img:
 link: https://www.linkedin.com/in/yasharmehdad/
 status: inactive
 research: 
-job: Senior Scientist Facebook
+job: Senior Engineering Manager at Meta - AI for VR & Metaverse
 ---

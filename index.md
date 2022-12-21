@@ -11,6 +11,8 @@ permalink: /
 {% include news_ticker.html %}
 {% include twitter_feed.html %}
 
+---
+
 |![Group Photo](/assets/img/group.jpg){: .group_image .z-depth-2}|
 |*Some group members (December 2021)*|
 {: .group .hide-on-med-and-down}

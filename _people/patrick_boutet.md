@@ -5,7 +5,8 @@ name: Patrick Boutet
 type: Master Student (Computer Science)
 role: student
 img: patrick_b.jpg
-link: 
+link: https://banditlabs.io/
 research: NLP
 status: inactive
+job: Founder of Bandit Labs Inc.
 ---

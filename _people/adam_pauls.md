@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: Google
+job: Research Scientist at Scaled Cognition
 ---

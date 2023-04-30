@@ -8,7 +8,6 @@ permalink: /
 ### NLP research at UBC
 ---
 
-<!-- {% include news_ticker.html %} -->
 {% include twitter_feed.html %}
 
 ---

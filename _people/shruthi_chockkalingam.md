@@ -5,7 +5,7 @@ name: Shruthi Chockkalingam
 type: Masters Student (Computer Science)
 role: student
 img: shruthi_chockkalingam.jpg
-link: shruthichock.github.io
+link: https://shruthichock.github.io
 research: NLP
 status: active
 ---

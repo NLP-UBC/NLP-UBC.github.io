@@ -7,7 +7,7 @@ permalink: /social
 
 ##### A Selection of Recent Social Team Outings:
 
-|![International Potluck](/assets/img/social/potluck_june2023.jpeg){: .group_image .z-depth-2}|
+|![International Potluck](/assets/img/social/potluck_june2023.png){: .group_image .z-depth-2}|
 |*International Potluck (June 2023)*|
 {: .group_fullsize}
 

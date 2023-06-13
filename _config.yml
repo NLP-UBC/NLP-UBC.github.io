@@ -28,11 +28,6 @@ scholar:
   bibliography_list_tag: ul
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
   people:
     defaults:
       layout: post

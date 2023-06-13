@@ -9,7 +9,6 @@ permalink: /
 ---
 
 {% include twitter_feed.html %} 
-<!-- {% include news_ticker.html %} -->
 
 ---
 

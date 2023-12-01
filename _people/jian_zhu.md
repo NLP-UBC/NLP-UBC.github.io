@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2000-01-02
+date: 2000-01-11
 name: Jian Zhu
 role: faculty
 type: Assistant Professor (Linguistics)

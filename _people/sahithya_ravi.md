@@ -6,8 +6,8 @@ type: PhD
 role: student
 type: PhD Student (Computer Science)
 img: sahithya_ravi.jpg
-research: NLP, commonsense reasoning, coreference resolution, vision and language
-link: https://sahithyaravi1493.github.io/
+research: NLP, Commonsense Reasoning, Vision and Language
+link: https://sahithyaravi.github.io/
 status: active
 ---
 

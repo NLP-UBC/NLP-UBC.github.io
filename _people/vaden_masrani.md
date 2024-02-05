@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: PhD student at UBC ML group
+job: Reasearcher at Huawei Canada
 ---

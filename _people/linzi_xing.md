@@ -9,5 +9,5 @@ img: Linzi_Xing.jpg
 link: https://linzixing.me/
 research: NLP, Topic Modelling, Topic Segmentation and Labeling
 status: inactive
-job: Resercher at Huawei Canada
+job: Researcher at Huawei Canada
 ---

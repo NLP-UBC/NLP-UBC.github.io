@@ -6,8 +6,8 @@ type: inactive
 role: student
 type: PhD Candidate (Computer Science)
 img: Linzi_Xing.jpg
-link: https://linzixing.me/
-research: NLP, Topic Modelling, Topic Segmentation and Labeling
+link: https://www.lz-xing.com/
+research: NLP, Topic Modelling, Topic Segmentation
 status: inactive
-job: Researcher at Huawei Canada
+job: Researcher at Huawei Technologies Canada
 ---

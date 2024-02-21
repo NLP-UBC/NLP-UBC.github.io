@@ -8,5 +8,5 @@ img:
 link: https://www.linkedin.com/in/yasharmehdad/
 status: inactive
 research: 
-job: Senior Engineering Manager at Meta - AI for VR & Metaverse
+job: Principal AI Engineer (Technical Director), Generative AI at Airbnb
 ---

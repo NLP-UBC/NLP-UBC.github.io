@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-01-01
-name: Ahmed-Ghassan-Tawfiq-Abura'ed
+name: Ahmed AbuRa'ed
 role: postdoc
 type: 
 img: Ahmed_AbuRaed.jpg

@@ -5,7 +5,7 @@ name: Ahmed AbuRa'ed
 role: postdoc
 type: 
 img: Ahmed_AbuRaed.jpg
-link: 
+link: https://www.cs.ubc.ca/~aaburaed/
 research: NLP
 status: active
 ---

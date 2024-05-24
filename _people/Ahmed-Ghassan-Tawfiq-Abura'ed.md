@@ -6,13 +6,6 @@ role: postdoc
 type: 
 img: Ahmed_AbuRaed.jpg
 link: https://www.cs.ubc.ca/~aaburaed/
-research: NLP
+research: LLMs, RAG systems, Text Classification, Sentiment Analysis, Topic Modeling, Summarization, Simplification.
 status: active
 ---
-
-<!-- Existing content here -->
-
-[Personal Website](https://www.cs.ubc.ca/~aaburaed/){:target="_blank"}
-
-<!-- Or using HTML directly for more control -->
-<a href="https://www.cs.ubc.ca/~aaburaed/" target="_blank">Personal Website</a>

@@ -9,3 +9,10 @@ link: https://www.cs.ubc.ca/~aaburaed/
 research: NLP
 status: active
 ---
+
+<!-- Existing content here -->
+
+[Personal Website](https://www.cs.ubc.ca/~aaburaed/){:target="_blank"}
+
+<!-- Or using HTML directly for more control -->
+<a href="https://www.cs.ubc.ca/~aaburaed/" target="_blank">Personal Website</a>

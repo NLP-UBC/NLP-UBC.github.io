@@ -7,6 +7,12 @@ permalink: /social
 
 ##### A Selection of Recent Social Team Outings:
 
+|![Mehar's Birthday (August 2024)](/assets/img/social/20240823_204646.jpg){: .group_image .z-depth-2}|
+|*Mehar's Birthday (August 2024)*|
+{: .group_fullsize}
+
+<br>
+
 |![International Potluck](/assets/img/social/potluck_june2023.jpeg){: .group_image .z-depth-2}|
 |*International Potluck (June 2023)*|
 {: .group_fullsize}

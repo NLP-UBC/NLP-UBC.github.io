@@ -13,11 +13,6 @@ The UBC NLP reading group (nlp-rg) is organized to discuss recent research paper
 > [ICCS 238](https://www.cs.ubc.ca/our-department/maps) <br>
 > (*Fall 2024*)
 
-To stay up-to-date, please feel free to join our Mailing List by signing up to nlp-rg@cs.ubc.ca through Majordomo. 
-
-Send an email To: majordomo@cs.ubc.ca
-with the Message: subscribe nlp-rg [your CWL username]@cs.ubc.ca
-
-(* Leave subject line empty, put message in body, and use your UBC email.)
+You can receive announcements about the reading group by joining our mailing list. To join the mailing list, please use an academic email address and send an email to nlp-rg-request@cs.ubc.ca with the word “join” (no quotes) in the body of the message. This will subscribe the sender’s email address to the mailing list. To unsubscribe please follow the same instructions but replace “join” with “leave” (no quotes) in the message body.
 
 For questions, issues, and inquiries, please email ubc-nlp@cs.ubc.ca

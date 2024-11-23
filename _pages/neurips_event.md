@@ -35,7 +35,7 @@ in_navbar: false
   </div>
 </div>
 
-<h5> Panelists </h5>
+<h5> Invited Panelists </h5>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/future-of-nlp-workshop/aishwarya_agrawal.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">

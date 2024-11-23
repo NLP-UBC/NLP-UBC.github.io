@@ -7,31 +7,59 @@ in_navbar: false
 
 #### Future of NLP Workshop
 
-> Tuesday, December 10, 8:00 - 17:00 <br>
-> [UBC Robson Square (Theatre C300)
-](https://robsonsquare.ubc.ca/view/room-selection/entry/11/) <br>
+> <span style="font-size:1.6em;">Tuesday, December 10, 8:00 - 17:00</span> <br>
+> <span style="font-size:1.6em;">[UBC Robson Square (Theatre C300)](https://robsonsquare.ubc.ca/view/room-selection/entry/11/)</span> <br>
+
 
 <h5> Invited Speakers </h5>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/future-of-nlp-workshop/xiang_ren.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <img src="/assets/img/future-of-nlp-workshop/xiang_ren.png" alt="Xiang Ren" style="width: 150px; height: auto;">
     <p><strong>Xiang Ren</strong><br>University of Southern <br> California (USC)</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/future-of-nlp-workshop/violet_peng.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <img src="/assets/img/future-of-nlp-workshop/violet_peng.png" alt="Violet Peng" style="width: 150px; height: auto;">
     <p><strong>Violet Peng</strong><br>University of California, <br> Los Angeles (UCLA)</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/future-of-nlp-workshop/diyi_wang.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <img src="/assets/img/future-of-nlp-workshop/diyi_wang.png" alt="Diyi Wang" style="width: 150px; height: auto;">
     <p><strong>Diyi Wang</strong><br>Stanford University</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/future-of-nlp-workshop/william_wang.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <img src="/assets/img/future-of-nlp-workshop/william_wang.png" alt="William Wang" style="width: 150px; height: auto;">
     <p><strong>William Wang</strong><br>University of California, <br> Santa Barbara (UCSB)</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/future-of-nlp-workshop/siva_reddy.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <img src="/assets/img/future-of-nlp-workshop/siva_reddy.png" alt="Siva Reddy" style="width: 150px; height: auto;">
     <p><strong>Siva Reddy</strong><br>McGill University</p>
+  </div>
+</div>
+
+<h5> Panelists </h5>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/aishwarya_agrawal.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <p><strong>Aishwarya Agrawal</strong><br>University of Montreal <br> Mila</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/hila_gonen.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <p><strong>Hila Gonen</strong><br>University of Washington</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/peter_west.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <p><strong>Peter West</strong><br>UBC (incoming)</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/wenhu_chen.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <p><strong>Wenhu Chen</strong><br>University of Waterloo</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/victor_zhong.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <p><strong>Victor Zhong</strong><br>University of Waterloo</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/freda_shi.png" alt="Oskar van der Wal" style="width: 150px; height: auto;">
+    <p><strong>Freda Shi</strong><br>University of Waterloo</p>
   </div>
 </div>
 

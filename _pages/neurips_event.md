@@ -13,21 +13,21 @@ in_navbar: false
 
 <h5> Invited Speakers </h5>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-  <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/future-of-nlp-workshop/xiang_ren.png" alt="Xiang Ren" style="width: 150px; height: auto;">
-    <p><strong>Xiang Ren</strong><br>University of Southern <br> California (USC)</p>
+<div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/william_wang.png" alt="William Wang" style="width: 150px; height: auto;">
+    <p><strong>William Wang</strong><br>University of California, <br> Santa Barbara (UCSB)</p>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/future-of-nlp-workshop/violet_peng.png" alt="Violet Peng" style="width: 150px; height: auto;">
     <p><strong>Violet Peng</strong><br>University of California, <br> Los Angeles (UCLA)</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/future-of-nlp-workshop/diyi_wang.png" alt="Diyi Wang" style="width: 150px; height: auto;">
-    <p><strong>Diyi Wang</strong><br>Stanford University</p>
+    <img src="/assets/img/future-of-nlp-workshop/diyi_yang.png" alt="Diyi Yang" style="width: 150px; height: auto;">
+    <p><strong>Diyi Yang</strong><br>Stanford University</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/future-of-nlp-workshop/william_wang.png" alt="William Wang" style="width: 150px; height: auto;">
-    <p><strong>William Wang</strong><br>University of California, <br> Santa Barbara (UCSB)</p>
+    <img src="/assets/img/future-of-nlp-workshop/xiang_ren.png" alt="Xiang Ren" style="width: 150px; height: auto;">
+    <p><strong>Xiang Ren</strong><br>University of Southern <br> California (USC)</p>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/future-of-nlp-workshop/siva_reddy.png" alt="Siva Reddy" style="width: 150px; height: auto;">
@@ -72,7 +72,7 @@ in_navbar: false
       <ul style="list-style-type: none; padding: 0;">
         <li style="padding: 5px 0;"><strong>8:00 - 9:00</strong> &mdash; Breakfast</li>
         <li style="padding: 5px 0;"><strong>9:00 - 9:10</strong> &mdash; Opening Remarks <em>(Vered Shwartz, UBC & Vector Institute)</em></li>
-        <li style="padding: 5px 0;"><strong>9:10 - 9:50</strong> &mdash; Xiang Ren <em>(University of Southern California)</em></li>
+        <li style="padding: 5px 0;"><strong>9:10 - 9:50</strong> &mdash; William Wang <em>(University of California, Santa Barbara)</em></li>
         <li style="padding: 5px 0;"><strong>9:50 - 10:30</strong> &mdash; Violet Peng <em>(University of California, Los Angeles)</em></li>
         <li style="padding: 5px 0;"><strong>10:30 - 10:45</strong> &mdash; Break</li>
         <li style="padding: 5px 0;"><strong>10:45 - 11:25</strong> &mdash; Siva Reddy <em>(McGill University)</em></li>
@@ -80,7 +80,7 @@ in_navbar: false
         <li style="padding: 5px 0;"><strong>12:25 - 13:40</strong> &mdash; Lunch Break</li>
         <li style="padding: 5px 0;"><strong>13:40 - 14:10</strong> &mdash; Vector Engineering Team</li>
         <li style="padding: 5px 0;"><strong>14:10 - 14:50</strong> &mdash; Diyi Yang <em>(Stanford University)</em></li>
-        <li style="padding: 5px 0;"><strong>14:50 - 15:30</strong> &mdash; William Wang <em>(University of California, Santa Barbara)</em></li>
+        <li style="padding: 5px 0;"><strong>14:50 - 15:30</strong> &mdash; Xiang Ren <em>(University of Southern California)</em></li>
         <li style="padding: 5px 0;"><strong>15:30 - 16:00</strong> &mdash; Break</li>
         <li style="padding: 5px 0;"><strong>16:00 - 17:00</strong> &mdash; Panel Discussion + Closing Remarks</li>
       </ul>

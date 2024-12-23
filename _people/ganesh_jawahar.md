@@ -7,5 +7,6 @@ role: student
 img: ganesh_jawahar.jpeg
 link: https://ganeshjawahar.github.io/
 research: Natural Language Generation, Model Efficiency
-status: active
+status: inactive
+job: Research Scientist at Google Deepmind
 ---

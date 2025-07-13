@@ -32,7 +32,7 @@ in_navbar: false
     </details>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/frontiers-in-nlp/sarahwiegreffe.jpeg" alt="Sarah Wiegreffe" style="width: 150px; height: auto;">
+    <img src="/assets/img/frontiers-in-nlp/sarahwiegreffe.jpeg" alt="Sarah Wiegreffe" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Sarah Wiegreffe</strong><br>Allen Institute for AI</p>
     <details style="text-align:left">
       <summary><strong>Talk Title:</strong> Demystifying the Inner Workings of Language Models </summary>
@@ -42,7 +42,7 @@ in_navbar: false
     
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/frontiers-in-nlp/Yossi_Levi.jpg" alt="Yossi Levi" style="width: 150px; height: auto;">
+    <img src="/assets/img/frontiers-in-nlp/Yossi_Levi.jpg" alt="Yossi Levi" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Yossi Levi</strong><br>Technion</p>
     <details style="text-align:left">
       <summary><strong>Talk Title:</strong> CLIP Latent space geometry </summary>
@@ -51,7 +51,7 @@ in_navbar: false
     </details>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/frontiers-in-nlp/aaron-mueller.jpg" alt="Aaron Mueller" style="width: 150px; height: auto;">
+    <img src="/assets/img/frontiers-in-nlp/aaron-mueller.jpg" alt="Aaron Mueller" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Aaron Mueller</strong><br>Boston University</p>
     <details style="text-align:left">
       <summary><strong>Talk Title:</strong> TBD</summary>
@@ -86,9 +86,6 @@ in_navbar: false
       <div style="text-align: center; margin-top: 30px;">
         <img src="/assets/img/frontiers-in-nlp/vered-shwartz.png" alt="Vered Shwartz" style="width: 150px; height: auto; ">
         <p><br>Vered Shwartz<br>UBC & Vector Institute</p>
-      </div>
-      <div style="text-align: left;">
-        <p>Seyed Hossein (Soheil) Alavi</p>
       </div>
     </div>
   </div>

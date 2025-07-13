@@ -7,7 +7,7 @@ in_navbar: false
 
 #### Frontiers in NLP
 
-> <span style="font-size:1.6em;">Thursday, July 17,  - 13:15</span> <br>
+> <span style="font-size:1.6em;">Thursday, July 17, 13:15 - 17:40 </span> <br>
 > <span style="font-size:1.6em;">[UBC Computer Science Department-ICICS X836]()</span> <br>
 
 
@@ -74,7 +74,7 @@ in_navbar: false
         <li style="padding: 5px 0;"><strong>14:55 - 15:15</strong> &mdash; Break</li>
         <li style="padding: 5px 0;"><strong>15:15 - 16:05</strong> &mdash; Sarah Wiegreffe <em>(Allen Institute for AI)</em></li>
         <li style="padding: 5px 0;"><strong>16:05 - 16:55</strong> &mdash; Yossi Levi <em>(Technion)</em></li>
-        <li style="padding: 5px 0;"><strong>16:455 - 17:40</strong> &mdash; Aaron Mueller <em>(Boston University)</em></li>
+        <li style="padding: 5px 0;"><strong>16:45 - 17:40</strong> &mdash; Aaron Mueller <em>(Boston University)</em></li>
       </ul>
     </div>
   </div>
@@ -91,23 +91,6 @@ in_navbar: false
   </div>
 
 </div>
-
-
-
-[//]: # (<h5> Event Sponsors </h5>)
-
-[//]: # (<div style="text-align: center; margin-top: 20px;">)
-
-[//]: # (  <img src="/assets/img/future-of-nlp-workshop/Sponsors.png" alt="Sponsor Logo" style="width: 90%; height: auto;">)
-
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # (<div style="text-align: center; margin-top: 20px;">)
-
-[//]: # (  <a href="https://docs.google.com/forms/d/1rhVnI9Qf03mHxa4t9dBbStXVXb1khyx0rpkgbix9TY4/viewform?edit_requested=true" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-decoration: none;">Register Now</a>)
-
-[//]: # (</div>)
 
 
 For questions, issues and inquiries, please email vshwartz@cs.ubc.ca

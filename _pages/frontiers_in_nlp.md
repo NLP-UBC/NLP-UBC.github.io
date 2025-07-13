@@ -14,7 +14,7 @@ in_navbar: false
 <h5> Invited Speakers </h5>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/frontiers-in-nlp/YuvalPinter.jpeg" alt="Yual Pinter" style="width: 150px; height: auto;">
+    <img src="/assets/img/frontiers-in-nlp/YuvalPinter.jpeg" alt="Yual Pinter" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Yuval Pinter</strong><br>Ben-Gurion University of the Negev<br></p>
     <details style="text-align:left">
       <summary><strong>Talk Title:</strong> Building Character: Tokenization in Theory and in Practice </summary>
@@ -23,7 +23,7 @@ in_navbar: false
     </details>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="/assets/img/frontiers-in-nlp/Tuhin-Chakrabarty.png" alt="Tuhin Chakrabarty" style="width: 150px; height: auto;">
+    <img src="/assets/img/frontiers-in-nlp/Tuhin-Chakrabarty.png" alt="Tuhin Chakrabarty" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Tuhin Chakrabarty</strong><br>Stony Brook University</p>
     <details style="text-align:left">
       <summary><strong>Talk Title:</strong> TBD </summary>

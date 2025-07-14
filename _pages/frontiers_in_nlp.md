@@ -74,7 +74,7 @@ in_navbar: false
     <h5> Schedule </h5>
     <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; background-color: #f9f9f9;">
       <ul style="list-style-type: none; padding: 0;">
-        <li style="padding: 5px 0;"><strong>12:30 - 13:15</strong> &mdash; Lunch</em></li>
+        <li style="padding: 5px 0;"><strong>12:30 - 13:15</strong> &mdash; Lunch</li>
         <li style="padding: 5px 0;"><strong>13:15 - 14:05</strong> &mdash; Yuval Pinter <em>(Ben Gurion University of the Negev)</em></li>
         <li style="padding: 5px 0;"><strong>14:05 - 14:55</strong> &mdash; Tuhin Chakrabarty <em>(Stony Brook University)</em></li>
         <li style="padding: 5px 0;"><strong>14:55 - 15:15</strong> &mdash; Break</li>

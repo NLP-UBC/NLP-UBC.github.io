@@ -22,6 +22,7 @@ in_navbar: false
       <p><strong>Bio:</strong> Yuval Pinter is a Senior Lecturer in the Department of Computer Science at Ben-Gurion University of the Negev, focusing on NLP as PI of the MeLeL lab. Yuval got his PhD at the Georgia Institute of Technology School of Interactive Computing as a Bloomberg Data Science PhD Fellow. Prior to this, he worked as a Research Engineer at Yahoo Labs and as a Computational Linguist at Ginger Software, and obtained an MA in Linguistics and a BSc in CS and Mathematics, both from Tel Aviv University.</p>
     </details>
   </div>
+    <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/Tuhin-Chakrabarty.png" alt="Tuhin Chakrabarty" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Tuhin Chakrabarty</strong><br>Stony Brook University</p>
@@ -31,6 +32,7 @@ in_navbar: false
       <p><strong>Bio:</strong> Tuhin Chakrabarty is  Assistant Professor at the Computer Science Department in Stony Brook University (SUNY). Prior to this he obtained his PhD from Columbia University where his research supported by an Amazon Fellowship and a NYTimes R&D fellowship.His research interests are broadly in AI, NLP and Human AI Interaction and his goal is to design and build reliable AI systems that can handle implicature and ambiguity, understand human behavior and are aligned with the requirements humans have from technology. His research often relies on knowledge, methods, and perspectives from multiple disciplines to address complex problems or questions that cannot be fully understood or solved within the boundaries of Computer Science. Tuhin's work has been covered in MIT Tech Review, Bloomberg, Washington Post and he has been the receipent of Best Paper Honorable Mention award at ACM CHI and more recently an Outstanding Position Paper award at ICML for his focus on building  prioritizing Human Centered AI.</p>
     </details>
   </div>
+    <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/sarahwiegreffe.jpeg" alt="Sarah Wiegreffe" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Sarah Wiegreffe</strong><br>Allen Institute for AI</p>
@@ -41,6 +43,7 @@ in_navbar: false
     </details>
     
   </div>
+  <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/Yossi_Levi.jpg" alt="Yossi Levi" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Yossi Levi</strong><br>Technion</p>
@@ -50,6 +53,7 @@ in_navbar: false
       <p><strong>Bio:</strong> Meir Yossef Levi (Yossi Levi) is in the final stages of his Ph.D. at the Technion, advised by Prof. Guy Gilboa, after receiving both his B.Sc. and M.Sc. in Electrical Engineering from the Technion. His research focuses on multimodal representation learning, with a particular interest in understanding the latent geometry of vision-language models and its implications. His recent work centers on CLIP, with two papers accepted to ICML 2025 on this topic. Prior to this, he studied robust classification in 3D vision, with publications at ICCV and 3DV.</p>
     </details>
   </div>
+  <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/aaron-mueller.jpg" alt="Aaron Mueller" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Aaron Mueller</strong><br>Boston University</p>

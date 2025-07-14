@@ -44,6 +44,7 @@ in_navbar: false
     
   </div>
   <br/>
+  <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/Yossi_Levi.jpg" alt="Yossi Levi" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Yossi Levi</strong><br>Technion</p>

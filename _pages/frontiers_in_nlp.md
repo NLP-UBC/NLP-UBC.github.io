@@ -7,7 +7,7 @@ in_navbar: false
 
 #### Frontiers in NLP
 
-> <span style="font-size:1.6em;">Thursday, July 17, 13:15 - 17:40 </span> <br>
+> <span style="font-size:1.6em;">Thursday, July 17, 12:30 - 17:40 </span> <br>
 > <span style="font-size:1.6em;">[UBC Computer Science Department-ICICS X836]()</span> <br>
 
 
@@ -22,6 +22,7 @@ in_navbar: false
       <p><strong>Bio:</strong> Yuval Pinter is a Senior Lecturer in the Department of Computer Science at Ben-Gurion University of the Negev, focusing on NLP as PI of the MeLeL lab. Yuval got his PhD at the Georgia Institute of Technology School of Interactive Computing as a Bloomberg Data Science PhD Fellow. Prior to this, he worked as a Research Engineer at Yahoo Labs and as a Computational Linguist at Ginger Software, and obtained an MA in Linguistics and a BSc in CS and Mathematics, both from Tel Aviv University.</p>
     </details>
   </div>
+    <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/Tuhin-Chakrabarty.png" alt="Tuhin Chakrabarty" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Tuhin Chakrabarty</strong><br>Stony Brook University</p>
@@ -31,6 +32,7 @@ in_navbar: false
       <p><strong>Bio:</strong> Tuhin Chakrabarty is  Assistant Professor at the Computer Science Department in Stony Brook University (SUNY). Prior to this he obtained his PhD from Columbia University where his research supported by an Amazon Fellowship and a NYTimes R&D fellowship.His research interests are broadly in AI, NLP and Human AI Interaction and his goal is to design and build reliable AI systems that can handle implicature and ambiguity, understand human behavior and are aligned with the requirements humans have from technology. His research often relies on knowledge, methods, and perspectives from multiple disciplines to address complex problems or questions that cannot be fully understood or solved within the boundaries of Computer Science. Tuhin's work has been covered in MIT Tech Review, Bloomberg, Washington Post and he has been the receipent of Best Paper Honorable Mention award at ACM CHI and more recently an Outstanding Position Paper award at ICML for his focus on building  prioritizing Human Centered AI.</p>
     </details>
   </div>
+    <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/sarahwiegreffe.jpeg" alt="Sarah Wiegreffe" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Sarah Wiegreffe</strong><br>Allen Institute for AI</p>
@@ -41,6 +43,8 @@ in_navbar: false
     </details>
     
   </div>
+  <br/>
+  <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/Yossi_Levi.jpg" alt="Yossi Levi" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Yossi Levi</strong><br>Technion</p>
@@ -50,12 +54,13 @@ in_navbar: false
       <p><strong>Bio:</strong> Meir Yossef Levi (Yossi Levi) is in the final stages of his Ph.D. at the Technion, advised by Prof. Guy Gilboa, after receiving both his B.Sc. and M.Sc. in Electrical Engineering from the Technion. His research focuses on multimodal representation learning, with a particular interest in understanding the latent geometry of vision-language models and its implications. His recent work centers on CLIP, with two papers accepted to ICML 2025 on this topic. Prior to this, he studied robust classification in 3D vision, with publications at ICCV and 3DV.</p>
     </details>
   </div>
+  <br/>
   <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/aaron-mueller.jpg" alt="Aaron Mueller" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Aaron Mueller</strong><br>Boston University</p>
     <details style="text-align:left">
       <summary><strong>Talk Title:</strong> How Do Language Models Think? A Causal Framework for Understanding Language Model Representations</summary>
-      <p><strong>Abstract:</strong> The goal of language model (LM) interpretability is to explain the behaviors of LMs in terms of their internal computations. Achieving this could enable us to predict LM behaviors on future examples, or to precisely steer or edit their behaviors.  However, current interpretability methods lack principled foundations; there is little consensus on what the most effective scientific abstractions are, or how to evaluate progress. This talk is guided by two questions: (i) What are the right terms and abstractions for describing the inner workings of a language model? (ii) How would we know when we’ve found the right abstraction? I will first present a causal framework for LM interpretability designed to address these questions. Building on this framework, I will then discuss the more practical problem of building a concrete evaluation standard for the field. I will present insights from our recent work on building a mechanistic interpretability benchmark, which enables systematic comparison of different approaches to understanding model mechanisms. I will conclude by discussing an underexplored open problem: the presence of non-human-like concepts in language models. I will briefly discuss how this complicates our ability to understand and validate mechanistic explanations, and discuss ongoing work focused on understanding when and why non-human-like concepts arise in LMs—and what we could do with them.</p>
+      <p><strong>Abstract:</strong> The goal of language model (LM) interpretability is to explain the behaviors of LMs in terms of their internal computations. Achieving this could enable us to predict LM behaviors on future examples, or to precisely steer or edit their behaviors.  However, current interpretability methods lack principled foundations; there is little consensus on what the most effective scientific abstractions are, or how to evaluate progress. This talk is guided by two questions: (i) What are the right terms and abstractions for describing the inner workings of a language model? (ii) How would we know when we’ve found the right abstraction? I will first present a causal framework for LM interpretability designed to address these questions. Building on this framework, I will then discuss the more practical problem of building a concrete evaluation standard for the field. I will present insights from our recent work on building a mechanistic interpretability benchmark, which enables systematic comparison of different approaches to understanding model mechanisms. I will conclude by discussing an underexplored open problem: the presence of non-human-like concepts in language models. I will briefly discuss how this complicates our ability to understand and validate mechanistic explanations, and discuss ongoing work focused on understanding when and why non-human-like concepts arise in LMs—and what we could do with them.</p>
       <p><strong>Bio:</strong> Aaron Mueller is an assistant professor in the Department of Computer Science at Boston University. His research centers on developing language modeling methods and evaluations inspired by causal and linguistic principles, and applying these for precise model control and improved efficiency. He completed a Ph.D. at Johns Hopkins University and was a Zuckerman postdoctoral fellow at Northeastern and the Technion. His work has been published in ML and NLP venues (such as ICLR, ACL, and EMNLP) and has won awards at TMLR and ACL. He has recently been featured in the New York Times (2023) and IEEE Spectrum (2024) as an organizer of the BabyLM Challenge.</p>
     </details>
   </div>
@@ -69,7 +74,8 @@ in_navbar: false
     <h5> Schedule </h5>
     <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; background-color: #f9f9f9;">
       <ul style="list-style-type: none; padding: 0;">
-        <li style="padding: 5px 0;"><strong>13:15 - 14:05</strong> &mdash; YuvalPinter <em>(Gurion University of the Negev)</em></li>
+        <li style="padding: 5px 0;"><strong>12:30 - 13:15</strong> &mdash; Lunch</li>
+        <li style="padding: 5px 0;"><strong>13:15 - 14:05</strong> &mdash; Yuval Pinter <em>(Ben Gurion University of the Negev)</em></li>
         <li style="padding: 5px 0;"><strong>14:05 - 14:55</strong> &mdash; Tuhin Chakrabarty <em>(Stony Brook University)</em></li>
         <li style="padding: 5px 0;"><strong>14:55 - 15:15</strong> &mdash; Break</li>
         <li style="padding: 5px 0;"><strong>15:15 - 16:05</strong> &mdash; Sarah Wiegreffe <em>(Allen Institute for AI)</em></li>

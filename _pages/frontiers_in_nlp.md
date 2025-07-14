@@ -10,6 +10,10 @@ in_navbar: false
 > <span style="font-size:1.6em;">Thursday, July 17, 12:30 - 17:40 </span> <br>
 > <span style="font-size:1.6em;">[UBC Computer Science Department-ICICS X836]()</span> <br>
 
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScp2r-RSRdcw1T862ArSZIcJHyo-hEsgCE9H5LWwHAQX-DOvg/viewform?usp=dialog" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-decoration: none;">Register Now</a>
+</div>
+
 
 <h5> Invited Speakers </h5>
 

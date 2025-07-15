@@ -15,9 +15,9 @@ in_navbar: false
 </div>
 
 
-<h5> Invited Speakers </h5>
+<h5"> Invited Speakers </h5>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+<div style="display: flex-direction: column; align-items: center; gap: 0px;">
 <div style="text-align: center; margin: 10px;">
     <img src="/assets/img/frontiers-in-nlp/YuvalPinter.jpeg" alt="Yual Pinter" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
     <p><strong>Yuval Pinter</strong><br>Ben Gurion University<br></p>

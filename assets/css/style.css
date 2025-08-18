@@ -67,7 +67,8 @@ blockquote{
 
 .profile_img {
   width: auto;
-  height: 95%;
+  height: 100%;
+  max-width: 170px;
   aspect-ratio: 1;
   object-fit: cover;
   float: center;

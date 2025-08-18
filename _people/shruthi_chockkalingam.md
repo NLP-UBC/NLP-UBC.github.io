@@ -7,5 +7,6 @@ role: student
 img: shruthi_chockkalingam.jpg
 link: https://shruthichock.github.io
 research: NLP
-status: active
+status: inactive
+job: Earth Dynamics AI
 ---

@@ -65,6 +65,15 @@ blockquote{
   min-width:300px;
 }
 
+.profile_img {
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  float: center;
+  border-radius: 0px;
+}
+
 .group_image{
   float:center;
   width: 100%;

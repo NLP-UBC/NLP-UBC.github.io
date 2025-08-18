@@ -5,7 +5,7 @@ name: Hila Gonen
 role: faculty
 type: Assistant Professor (Computer Science)
 img: hila-gonen.jpg
-link: 
+link: https://gonenhila.github.io/
 research: NLP
 status: active
 ---

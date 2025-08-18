@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2000-02-11
+date: 2000-01-09
 name: Isabel Papadimitriou
 role: faculty
 type: Assistant Professor (Linguistics)

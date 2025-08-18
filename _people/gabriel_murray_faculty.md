@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-09-01
+date: 2000-01-11
 name: Gabriel Murray
 type: Affliated Professor (Computer Science)
 role: faculty

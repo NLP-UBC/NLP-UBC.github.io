@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2000-01-04
+date: 2000-01-07
 name: Muhammad Abdul-Mageed
 role: faculty
 type: Associate Professor (Linguistics)

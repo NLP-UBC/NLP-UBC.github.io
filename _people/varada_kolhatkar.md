@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2000-01-04
+date: 2000-01-10
 name: Varada Kolhatkar
 role: faculty
 type: Educational Leadership Assistant Professor (Computer Science)

@@ -6,7 +6,7 @@ role: faculty
 type: Assistant Professor (Computer Science)
 img: vered-shwartz.jpg
 link: https://www.cs.ubc.ca/~vshwartz/
-research: NLP, Computational Semantics, Pragmatics, Commonsense Reasoning
+research: NLP, Commonsense Reasoning, Culturally Competent AI, Vision and Language, NLP Applications
 status: active
 ---
 

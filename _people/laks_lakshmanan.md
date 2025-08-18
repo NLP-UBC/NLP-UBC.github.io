@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2000-01-03
+date: 2000-01-06
 name: Laks V.S. Lakshmanan
 role: faculty
 type: Professor (Computer Science)

@@ -66,13 +66,22 @@ blockquote{
 }
 
 .profile_img {
-  width: auto;
-  height: 100%;
-  max-width: 170px;
-  aspect-ratio: 1;
-  object-fit: cover;
-  float: center;
-  border-radius: 0px;
+  /* Force a consistent square so all headshots appear the same size */
+  width: 170px;
+  height: 170px;
+  max-width: 100%;
+  object-fit: cover;        /* Crop without distortion */
+  object-position: center;  /* Center the crop */
+  display: block;
+  border-radius: 0px;       /* Change to 50% if you want circles */
+}
+
+/* Responsive tweak: shrink squares a bit on narrow screens */
+@media (max-width: 600px) {
+  .profile_img {
+    width: 130px;
+    height: 130px;
+  }
 }
 
 .group_image{
@@ -175,6 +184,6 @@ img.responsive-img {
 }
 .card-image {
 	height: 60%;
-	
+
 }
 

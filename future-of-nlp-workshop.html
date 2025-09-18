@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>UBC NLP Group | Future of NLP Workshop</title>
+  <meta name="description" content="The Natural Language Processing (NLP) group at University of British Columbia conducts research on core NLP problems, computational linguistics, text mining, and visual text analytics under Profs. Giuseppe Carenini, Raymond Ng and Vered Shwartz.">
+  <link href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/materialize.min.js"></script>
+  <script src="/assets/js/jquery.js"></script>
+  <script src="/assets/js/custom.js"></script>
+  <link rel="shortcut icon" type="image/png" href="/assets/img/nlp.png">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-361W0CW3JN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-361W0CW3JN');
+  </script>
+</head>
+
+  <body>
+    <div class="page-content">
+      <div class="row navbar-fixed z-depth-4" style="background-color: #97D4E9; margin-bottom: 0px; height: 90px;">
+  <nav class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-0" style="background-color: #97D4E9; height: 90px; padding:0px;" >
+    <div class="col l12 m12 s12" style="height: 90px; padding:0px;">
+      <div class="nav-wrapper" style="line-height:1.2;">
+      <div class="col l3 m8 s8 left-align z-depth-0" >
+        <a href="https://www.ubc.ca/">
+          <img src="/assets/img/ubc.png" style="height:80%; max-height: 80px; max-width:120%; padding-top:15px; padding-left:15px; float: left; overflow: hidden;">
+        </a>
+      </div>
+      <div style="padding-top:15px; float:right;">
+        <a href="#" data-target="mobile" class="sidenav-trigger"><i class="large material-icons" style="color: #002145; font-size: 30px">menu</i></a>
+      </div>
+      <div class="right hide-on-med-and-down" style="padding-bottom: 0px; padding-top:30px; padding-right:10px; float:right;">
+        <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></span>
+        
+        
+      
+        
+        
+        
+      
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></span> 
+        
+        
+      
+        
+      
+    </div>
+    </div>
+    </div>
+  <div class="col l12 m12 s12 left-align z-depth-0 valign-wrapper" style="background-color: #002145; height: 80px; width: 100%">
+    <a href="/"><img src="/assets/img/nlp.png" style="height:60px; padding-left:10px; float: right;"></a>
+    <p style="line-height:1.5; margin-left: 20px">
+        <span><a href="https://www.cs.ubc.ca/">Computer Science</a> and <a href="https://linguistics.ubc.ca/">Linguistics</a></span><br />
+      <span style="font-size:14pt"><a href="/">Natural Language Processing Group</a></span>
+    </p>
+    </div>
+  </nav>
+</div>
+<ul class="sidenav" id="mobile">
+  <div style="padding: 10px; margin-top: 10px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></div>
+    
+    
+  
+    
+    
+    
+  
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></div>
+    
+    
+  
+    
+  
+</ul>
+
+<div class="row" style="padding-top: 80px;">
+
+  	<div class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-4" style="background-color: #FFFFFF; padding:0px; padding-bottom: 20px">
+		<div style='margin-bottom: 10px; border-radius: 10px;'>
+				
+			    <div style='font-weight:300; text-align: left; padding-left: 10px; padding-right: 10px'>
+			      	<h4 id="future-of-nlp-workshop">Future of NLP Workshop</h4>
+
+<blockquote>
+  <p><span style="font-size:1.6em;">Tuesday, December 10, 8:00 - 17:00</span> <br />
+<span style="font-size:1.6em;"><a href="https://robsonsquare.ubc.ca/view/room-selection/entry/11/">UBC Robson Square (Theatre C300)</a></span> <br /></p>
+</blockquote>
+
+<h5> Invited Speakers </h5>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+<div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/william_wang.png" alt="William Wang" style="width: 150px; height: auto;" />
+    <p><strong>William Wang</strong><br />University of California, <br /> Santa Barbara (UCSB)</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/violet_peng.png" alt="Violet Peng" style="width: 150px; height: auto;" />
+    <p><strong>Violet Peng</strong><br />University of California, <br /> Los Angeles (UCLA)</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/diyi_yang.png" alt="Diyi Yang" style="width: 150px; height: auto;" />
+    <p><strong>Diyi Yang</strong><br />Stanford University</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/xiang_ren.png" alt="Xiang Ren" style="width: 150px; height: auto;" />
+    <p><strong>Xiang Ren</strong><br />University of Southern <br /> California (USC)</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/siva_reddy.png" alt="Siva Reddy" style="width: 150px; height: auto;" />
+    <p><strong>Siva Reddy</strong><br />McGill University</p>
+  </div>
+</div>
+
+<h5> Invited Panelists </h5>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/aishwarya_agrawal.png" alt="Oskar van der Wal" style="width: 150px; height: auto;" />
+    <p><strong>Aishwarya Agrawal</strong><br />University of Montreal <br /> Mila</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/hila_gonen.png" alt="Oskar van der Wal" style="width: 150px; height: auto;" />
+    <p><strong>Hila Gonen</strong><br />University of Washington</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/peter_west.png" alt="Oskar van der Wal" style="width: 150px; height: auto;" />
+    <p><strong>Peter West</strong><br />UBC (incoming)</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/wenhu_chen.png" alt="Oskar van der Wal" style="width: 150px; height: auto;" />
+    <p><strong>Wenhu Chen</strong><br />University of Waterloo</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/victor_zhong.png" alt="Oskar van der Wal" style="width: 150px; height: auto;" />
+    <p><strong>Victor Zhong</strong><br />University of Waterloo</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="/assets/img/future-of-nlp-workshop/freda_shi.png" alt="Oskar van der Wal" style="width: 150px; height: auto;" />
+    <p><strong>Freda Shi</strong><br />University of Waterloo</p>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap;">
+
+  <!-- Schedule section -->
+  <div style="width: 70%; padding-right: 20px;">
+    <h5> Schedule </h5>
+    <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; background-color: #f9f9f9;">
+      <ul style="list-style-type: none; padding: 0;">
+        <li style="padding: 5px 0;"><strong>8:00 - 9:00</strong> &mdash; Breakfast</li>
+        <li style="padding: 5px 0;"><strong>9:00 - 9:10</strong> &mdash; Opening Remarks <em>(Vered Shwartz, UBC &amp; Vector Institute)</em></li>
+        <li style="padding: 5px 0;"><strong>9:10 - 9:50</strong> &mdash; William Wang <em>(University of California, Santa Barbara)</em></li>
+        <li style="padding: 5px 0;"><strong>9:50 - 10:30</strong> &mdash; Violet Peng <em>(University of California, Los Angeles)</em></li>
+        <li style="padding: 5px 0;"><strong>10:30 - 10:45</strong> &mdash; Break</li>
+        <li style="padding: 5px 0;"><strong>10:45 - 11:25</strong> &mdash; Siva Reddy <em>(McGill University)</em></li>
+        <li style="padding: 5px 0;"><strong>11:25 - 12:25</strong> &mdash; Poster Session</li>
+        <li style="padding: 5px 0;"><strong>12:25 - 13:40</strong> &mdash; Lunch Break</li>
+        <li style="padding: 5px 0;"><strong>13:40 - 14:10</strong> &mdash; Vector Engineering Team</li>
+        <li style="padding: 5px 0;"><strong>14:10 - 14:50</strong> &mdash; Diyi Yang <em>(Stanford University)</em></li>
+        <li style="padding: 5px 0;"><strong>14:50 - 15:30</strong> &mdash; Xiang Ren <em>(University of Southern California)</em></li>
+        <li style="padding: 5px 0;"><strong>15:30 - 16:00</strong> &mdash; Break</li>
+        <li style="padding: 5px 0;"><strong>16:00 - 17:00</strong> &mdash; Panel Discussion + Closing Remarks</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Organizers section -->
+  <div style="width: 30%;">
+    <h5> Organizers </h5>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <div style="text-align: center; margin-top: 30px;">
+        <img src="/assets/img/future-of-nlp-workshop/vered-shwartz.png" alt="Vered Shwartz" style="width: 150px; height: auto; " />
+        <p><strong>General Chair</strong><br />Vered Shwartz<br />UBC &amp; Vector Institute</p>
+      </div>
+      <div style="text-align: left;">
+        <p><strong>Program Chairs</strong><br />Sahithya Ravi, Eunjeong Hwang</p>
+        <p><strong>Local Organizers</strong><br />Joy Liu, Maksym Taranukhin</p>
+        <p><strong>Publicity Chairs</strong><br />Amirhossein Abaskohi, Raymond Li</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<h5> Event Sponsors </h5>
+<div style="text-align: center; margin-top: 20px;">
+  <img src="/assets/img/future-of-nlp-workshop/Sponsors.png" alt="Sponsor Logo" style="width: 90%; height: auto;" />
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://docs.google.com/forms/d/1rhVnI9Qf03mHxa4t9dBbStXVXb1khyx0rpkgbix9TY4/viewform?edit_requested=true" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border-radius: 5px; text-decoration: none;">Register Now</a>
+</div>
+
+<p>For questions, issues and inquiries, please email vshwartz@cs.ubc.ca</p>
+
+			    </div>
+		</div>
+	</div>
+</div>
+<footer style="margin-top:50px">
+  <div class="row z-depth-4" style="margin-bottom: 0px; background-color: #97D4E9;">
+  <div class="col l8 m10 s12 left-align offset-l2 offset-m1">
+      <div class="col l6 m8 s12 left-align">
+        <div style="margin:20px">
+            <div><b>Room X460</b></div>
+            <div><b>Department of Computer Science</b></div>
+            <div>201-2366 Main Mall</div>
+            <div>Vancouver, BC Canada</div>
+            <div>V6T 1Z4</div>
+          <div>E-mail: <a href="mailto:ubc-nlp@cs.ubc.ca">ubc-nlp@cs.ubc.ca</a></div>
+        </div>
+      </div>
+      <div class="col l6 m4 s12 right-align">
+      <div style="margin: 20px;">
+          <b>Find us on</b>
+          <div>
+              <a href="https://twitter.com/UBC_NLP"><img src="/assets/img/icons/twitter-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+              <a href="https://github.com/NLP-UBC"><img src="/assets/img/icons/github-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row z-depth-4" style="margin-bottom: 0px; background-color: #002145;">
+  <div class="col l4 m4 s12 center-align"> 
+      <img src="/assets/img/ubc_dark.png" style="width:100%; min-width:200px; max-width: 300px; padding-top:15px; padding-left:15px; float: left;">
+  </div>
+
+  <div class="col l8 m8 s12 center-align"> 
+    <div class="col l5 m6 s12" style="color: #EDEDEF; padding-top:18px; padding-right: 5px;">The UBC NLP group is partially sponsored by grants and awards from:
+    </div>
+    <div class="col l7 m6 s12 center-align">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <img src="/assets/img/sponsors/ai2_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/cihr_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/huawei_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/mitacs_logo.jpeg" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/nserc_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+    </div>
+  </body>
+</html>

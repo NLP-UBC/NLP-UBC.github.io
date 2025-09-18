@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>UBC NLP Group | Showcase</title>
+  <meta name="description" content="The Natural Language Processing (NLP) group at University of British Columbia conducts research on core NLP problems, computational linguistics, text mining, and visual text analytics under Profs. Giuseppe Carenini, Raymond Ng and Vered Shwartz.">
+  <link href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/materialize.min.js"></script>
+  <script src="/assets/js/jquery.js"></script>
+  <script src="/assets/js/custom.js"></script>
+  <link rel="shortcut icon" type="image/png" href="/assets/img/nlp.png">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-361W0CW3JN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-361W0CW3JN');
+  </script>
+</head>
+
+  <body>
+    <div class="page-content">
+      <div class="row navbar-fixed z-depth-4" style="background-color: #97D4E9; margin-bottom: 0px; height: 90px;">
+  <nav class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-0" style="background-color: #97D4E9; height: 90px; padding:0px;" >
+    <div class="col l12 m12 s12" style="height: 90px; padding:0px;">
+      <div class="nav-wrapper" style="line-height:1.2;">
+      <div class="col l3 m8 s8 left-align z-depth-0" >
+        <a href="https://www.ubc.ca/">
+          <img src="/assets/img/ubc.png" style="height:80%; max-height: 80px; max-width:120%; padding-top:15px; padding-left:15px; float: left; overflow: hidden;">
+        </a>
+      </div>
+      <div style="padding-top:15px; float:right;">
+        <a href="#" data-target="mobile" class="sidenav-trigger"><i class="large material-icons" style="color: #002145; font-size: 30px">menu</i></a>
+      </div>
+      <div class="right hide-on-med-and-down" style="padding-bottom: 0px; padding-top:30px; padding-right:10px; float:right;">
+        <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></span>
+        
+        
+      
+        
+        
+        
+      
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></span> 
+        
+        
+      
+        
+      
+    </div>
+    </div>
+    </div>
+  <div class="col l12 m12 s12 left-align z-depth-0 valign-wrapper" style="background-color: #002145; height: 80px; width: 100%">
+    <a href="/"><img src="/assets/img/nlp.png" style="height:60px; padding-left:10px; float: right;"></a>
+    <p style="line-height:1.5; margin-left: 20px">
+        <span><a href="https://www.cs.ubc.ca/">Computer Science</a> and <a href="https://linguistics.ubc.ca/">Linguistics</a></span><br />
+      <span style="font-size:14pt"><a href="/">Natural Language Processing Group</a></span>
+    </p>
+    </div>
+  </nav>
+</div>
+<ul class="sidenav" id="mobile">
+  <div style="padding: 10px; margin-top: 10px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></div>
+    
+    
+  
+    
+    
+    
+  
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></div>
+    
+    
+  
+    
+  
+</ul>
+
+<div class="row" style="padding-top: 80px;">
+
+  	<div class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-4" style="background-color: #FFFFFF; padding:0px; padding-bottom: 20px">
+		<div style='margin-bottom: 10px; border-radius: 10px;'>
+				
+			    <div style='font-weight:300; text-align: left; padding-left: 10px; padding-right: 10px'>
+			      		<div class="col l12 m12 s12"><h4 id="project-showcase">Project Showcase</h4>
+</div>
+    <ul class="collapsible z-depth-0" style="border-width: 0px; list-style-type: none">
+    
+    
+    <li>
+      <div class="collapsible-header" style="font-weight:400; font-size:13pt">Discourse Analysis and Parsing</div>
+      <div class="collapsible-body" style="padding-top:0px">
+        <span style='font-weight:300'><h5 id="distantly--and-self-supervised-approaches-to-infer-discourse">Distantly- and Self-Supervised Approaches to Infer Discourse</h5>
+
+<p>In our recent line of distantly- and self-supervised approaches for RST-style discourse parsing, we aim to generate robust silver-standard discourse trees informed by related downstream tasks.</p>
+
+<p><br /></p>
+
+<h6 id="discourse-from-sentiment-analysis">Discourse from Sentiment Analysis</h6>
+
+<table class="showcase_img_right">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/mega_dt_pipeline.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>MEGA-DT Disocurse Annotation Pipeline</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In our <a href="https://aclanthology.org/D19-1235/">EMNLP 2019</a> and <a href="https://aclanthology.org/2020.emnlp-main.603.pdf">MEGA-DT</a> (published at EMNLP 2020) papers, we propose a combination of a deep multiple instance learning model (MILNet) with the traditional CKY algorithm to generate nuclearity-attributed discourse structures for large-scale sentiment annotated corpora. We show that while the silver-standard discourse trees cannot outperform in-domain supervised discourse parsers, they do capture highly robust structures, which generalize well between domains, reaching the best inter-domain discourse parsing performance to date. Our generated silver-standard discourse treebank containing over 250.000 complete discourse trees in the review domain can be downloaded <a href="/mega-dt">here</a>.</p>
+
+<p><br /></p>
+
+<h6 id="discourse-from-topic-segmentation">Discourse from Topic Segmentation</h6>
+
+<table class="showcase_img_left">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/topic_seg_for_disc.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>Topic Segmentation to Infer High Level Discourse Structures</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Improving on our work using sentiment augmented data to infer discourse structures, we target high-level (above-sentence) discourse structures in our AAAI 2022 work on <a href="https://arxiv.org/abs/2112.06196">Predicting Above-Sentence Discourse Structure using Distant Supervision from Topic Segmentation</a>. We thereby exploit our top-performing neural topic segmentation model presented in <a href="https://aclanthology.org/2020.aacl-main.63/">this paper</a> to greedily segment documents, showing that the generated high-level (binary) discourse structures align well with gold-standard discourse annotations, an important factor for many downstream tasks implicitly or explicitly converting constituency trees into dependency representations.</p>
+
+<p><br /><br /></p>
+
+<h6 id="discourse-from-summarization">Discourse from Summarization</h6>
+
+<table class="showcase_img_right">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/sum4disc.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>Discourse Inference from Transformer Self-Attention Matrices</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Extending our work on distantly-supervised discourse parsing, we explore the auxiliary task of summarization, especially focussing on the nuclearity attribute, which has previously been shown to contain importnat information for summarization related tasks. In our <a href="https://aclanthology.org/2021.naacl-main.326/">NAACL 2021 paper</a>, we show that discourse (dependency) structures can be reasonably inferred using the CKY and Eisner algorithms to extract discourse trees from transformer self-attention matrices, marking an important first step to explore state-of-the-art NLP models for their alignment with discourse information.</p>
+
+<p><br /></p>
+
+<h6 id="discourse-from-tree-style-autoencoders">Discourse from Tree-style Autoencoders</h6>
+
+<table class="showcase_img_left_large">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/tree_ae.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>Unsupervised Tree Auto-Encoder</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In our AAAI 2021 paper on <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17549">Unsupervised Learning of Discourse Structures using a Tree Autoencoder</a>, we aim to generate discourse structures (without nuclearity and relation labels) from the task of tree-style language modelling. In contrast to many modern approaches interpreting the language modelling task as a sequential problem, we explicitly generate discrete tree structures during training and inference. We show that those tree structures learned purely from existing large-scale datasets can reasonably align with discourse and further also supports important downstream tasks (here: sentiment analysis). While the performance is nowhere close to supervised (or distantly-supervised) models, we show first insights into the value of generating more tree-enabled structures for language modelling, potentially valuable for further research in the future.</p>
+
+<p><br /></p>
+
+<h6 id="w-rst-a-weighted-extension-of-discourse-theories">W-RST: A weighted Extension of Discourse Theories</h6>
+
+<table class="showcase_img_right">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/wrst.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>The W-RST framework bridging the gap between Linguistics and NLP</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In a first attempt to bridge the ever growing gap between (Computational) Linguistics and Natural Language Processing, we propose the <a href="https://aclanthology.org/2021.acl-long.302/">Weighted-RST (W-RST) framework</a> at ACL 2021. In this line of work, we explore the usage of readily available real-valued scores in distantly supervised discourse models, namely the <a href="https://aclanthology.org/2020.emnlp-main.603.pdf">MEGA-DT</a> and our <a href="ttps://aclanthology.org/2021.naacl-main.326/">NAACL 2021</a> paper, to generate more fine-grained importance scores between sibling sub-trees (i.e., the RST nuclearity attribute). In our experiments, we show that the weighted RST trees are superior to discourse treuctures with binary nuclearity attributes for most thresholds, and further align well with human annotations.</p>
+
+<p><br /><br /></p>
+
+<h5 id="supervised-discourse-parsers">Supervised Discourse Parsers</h5>
+
+<p>Our lab further contributed some of the top-performing, completely supervised discourse parsers to date. With the <a href="https://direct.mit.edu/coli/article/41/3/385/1522/CODRA-A-Novel-Discriminative-Framework-for">CODRA discourse parser</a> reaching state-of-the-art performance at the time using an optimal parsing algorithm with two Conditional Random Fields for intra-sentential and multi-sentential parsing.</p>
+
+<p>More recently, our neural discourse parser presented at <a href="https://aclanthology.org/2020.codi-1.17/">CODI 2020</a> based on the shift-reduce paradigm, using SpanBERT and an auxiliary coreference module reached the state-of-the-art performance for RST-style discourse parsing on RST-DT.</p>
+</span>
+    </div>
+    </li>
+    
+    <li>
+      <div class="collapsible-header" style="font-weight:400; font-size:13pt">ConVis</div>
+      <div class="collapsible-body" style="padding-top:0px">
+        <span style='font-weight:300'><h6 id="visual-text-analytics-of-conversations-gc-add-better-pic">Visual Text Analytics of Conversations (GC Add better pic)</h6>
+
+<table class="showcase_img_left">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/textAnalytics.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>System Overview</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We have developed visual text analytic systems that tightly integrate interactive visualization with novel text mining and summarization techniques to fulfill information needs of users in exploring conversations (e.g, <a href="https://vimeo.com/100082197">ConVis</a>, <a href="https://dl.acm.org/doi/10.1145/2856767.2856782">MultiConvis</a>, <a href="https://arxiv.org/abs/2108.13514">ConViscope</a>). In this context, we have investigated techniques for interactive (human-in-the-loop) topic modeling. Check out our latest <a href="https://journals.sagepub.com/doi/abs/10.1177/1473871618757228">paper</a></p>
+
+<p><br /><br /><br /><br /></p>
+
+</span>
+    </div>
+    </li>
+    
+    <li>
+      <div class="collapsible-header" style="font-weight:400; font-size:13pt">Extractive Summarization of Long Documents by Combining Global and Local Context</div>
+      <div class="collapsible-body" style="padding-top:0px">
+        <span style='font-weight:300'><h6 id="check-out-our-work-on-extractive-summarization-for-long-documents">Check out our work on extractive summarization for long documents!</h6>
+
+<table class="showcase_img_right">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/local_global_summ_emnlp19.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>System Overview</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We propose a novel neural single document extractive summarization model for long documents, incorporating both the global context of the whole document and the local context within the current topic.</p>
+
+<p>Check out our <a href="https://aclanthology.org/D19-1298/">paper</a> and <a href="https://github.com/Wendy-Xiao/Extsumm_local_global_context">code</a>.</p>
+
+<p><br /><br /><br /><br /><br /><br /><br /><br /></p>
+</span>
+    </div>
+    </li>
+    
+  </ul>
+
+			    </div>
+		</div>
+	</div>
+</div>
+<footer style="margin-top:50px">
+  <div class="row z-depth-4" style="margin-bottom: 0px; background-color: #97D4E9;">
+  <div class="col l8 m10 s12 left-align offset-l2 offset-m1">
+      <div class="col l6 m8 s12 left-align">
+        <div style="margin:20px">
+            <div><b>Room X460</b></div>
+            <div><b>Department of Computer Science</b></div>
+            <div>201-2366 Main Mall</div>
+            <div>Vancouver, BC Canada</div>
+            <div>V6T 1Z4</div>
+          <div>E-mail: <a href="mailto:ubc-nlp@cs.ubc.ca">ubc-nlp@cs.ubc.ca</a></div>
+        </div>
+      </div>
+      <div class="col l6 m4 s12 right-align">
+      <div style="margin: 20px;">
+          <b>Find us on</b>
+          <div>
+              <a href="https://twitter.com/UBC_NLP"><img src="/assets/img/icons/twitter-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+              <a href="https://github.com/NLP-UBC"><img src="/assets/img/icons/github-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row z-depth-4" style="margin-bottom: 0px; background-color: #002145;">
+  <div class="col l4 m4 s12 center-align"> 
+      <img src="/assets/img/ubc_dark.png" style="width:100%; min-width:200px; max-width: 300px; padding-top:15px; padding-left:15px; float: left;">
+  </div>
+
+  <div class="col l8 m8 s12 center-align"> 
+    <div class="col l5 m6 s12" style="color: #EDEDEF; padding-top:18px; padding-right: 5px;">The UBC NLP group is partially sponsored by grants and awards from:
+    </div>
+    <div class="col l7 m6 s12 center-align">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <img src="/assets/img/sponsors/ai2_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/cihr_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/huawei_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/mitacs_logo.jpeg" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/nserc_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+    </div>
+  </body>
+</html>

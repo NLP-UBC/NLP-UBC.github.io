@@ -1,0 +1,2719 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>UBC NLP Group | Publications</title>
+  <meta name="description" content="The Natural Language Processing (NLP) group at University of British Columbia conducts research on core NLP problems, computational linguistics, text mining, and visual text analytics under Profs. Giuseppe Carenini, Raymond Ng and Vered Shwartz.">
+  <link href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/materialize.min.js"></script>
+  <script src="/assets/js/jquery.js"></script>
+  <script src="/assets/js/custom.js"></script>
+  <link rel="shortcut icon" type="image/png" href="/assets/img/nlp.png">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-361W0CW3JN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-361W0CW3JN');
+  </script>
+</head>
+
+  <body>
+    <div class="page-content">
+      <div class="row navbar-fixed z-depth-4" style="background-color: #97D4E9; margin-bottom: 0px; height: 90px;">
+  <nav class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-0" style="background-color: #97D4E9; height: 90px; padding:0px;" >
+    <div class="col l12 m12 s12" style="height: 90px; padding:0px;">
+      <div class="nav-wrapper" style="line-height:1.2;">
+      <div class="col l3 m8 s8 left-align z-depth-0" >
+        <a href="https://www.ubc.ca/">
+          <img src="/assets/img/ubc.png" style="height:80%; max-height: 80px; max-width:120%; padding-top:15px; padding-left:15px; float: left; overflow: hidden;">
+        </a>
+      </div>
+      <div style="padding-top:15px; float:right;">
+        <a href="#" data-target="mobile" class="sidenav-trigger"><i class="large material-icons" style="color: #002145; font-size: 30px">menu</i></a>
+      </div>
+      <div class="right hide-on-med-and-down" style="padding-bottom: 0px; padding-top:30px; padding-right:10px; float:right;">
+        <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></span>
+        
+        
+      
+        
+        
+        
+      
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></span> 
+        
+        
+      
+        
+      
+    </div>
+    </div>
+    </div>
+  <div class="col l12 m12 s12 left-align z-depth-0 valign-wrapper" style="background-color: #002145; height: 80px; width: 100%">
+    <a href="/"><img src="/assets/img/nlp.png" style="height:60px; padding-left:10px; float: right;"></a>
+    <p style="line-height:1.5; margin-left: 20px">
+        <span><a href="https://www.cs.ubc.ca/">Computer Science</a> and <a href="https://linguistics.ubc.ca/">Linguistics</a></span><br />
+      <span style="font-size:14pt"><a href="/">Natural Language Processing Group</a></span>
+    </p>
+    </div>
+  </nav>
+</div>
+<ul class="sidenav" id="mobile">
+  <div style="padding: 10px; margin-top: 10px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></div>
+    
+    
+  
+    
+    
+    
+  
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></div>
+    
+    
+  
+    
+  
+</ul>
+
+<div class="row" style="padding-top: 80px;">
+
+  	<div class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-4" style="background-color: #FFFFFF; padding:0px; padding-bottom: 20px">
+		<div style='margin-bottom: 10px; border-radius: 10px;'>
+				
+					<img src="/assets/img/publications.jpg" style="width:100%; height:150px; object-fit: cover;">
+				
+			    <div style='font-weight:300; text-align: left; padding-left: 10px; padding-right: 10px'>
+			      	<h4 id="our-group-publications">Our Group Publications</h4>
+<h5 id="in-reverse-chronological-order">(In reverse chronological order)</h5>
+<p><br /></p>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2025</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">CEMTM: Contextual Embedding-based Multimodal Topic Modeling</div>
+	<div style="font-weight:300">Abaskohi, Amirhossein and Li, Raymond and Li, Chuyuan and Joty, Shafiq and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/pdf/2509.11465" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">ChartGaze: Enhancing Chart Understanding in LVLMs with Eye-Tracking Guided Attention Refinement</div>
+	<div style="font-weight:300">Salamatian, Ali and Abaskohi, Amirhossein and Fan, Wan-Cyuan and Imtiaz Hossain, Mir Rayat and Sigal, Leonid and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2509.13282" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">FM2DS: Few-Shot Multimodal Multihop Data Synthesis with Knowledge Distillation for Question Answering</div>
+	<div style="font-weight:300">Abaskohi, Amirhossein and Gella, Spandana and Carenini, Giuseppe and Hadj Laradji, Issam</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.arxiv.org/abs/2412.07030" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">AgentAda: Skill-Adaptive Data Analytics for Tailored Insight Discovery</div>
+	<div style="font-weight:300">Abaskohi, Amirhossein and Varshini Ramesh, Amrutha and Nanisetty, Shailesh and Goel, Chirag and Vazquez, David and Pal, Christopher and Gella, Spandana and Carenini, Giuseppe and Hadj Laradji, Issam</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of 1st Workshop for Research on Agent Language Models (REALM 2025)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2504.07421" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">DeTriever: Decoder-representation-based Retriever for Improving NL2SQL In-Context Learning</div>
+	<div style="font-weight:300">Li, Raymond and Feng, Yuxi and Fan, Zhenan and Carenini, Giuseppe and Zhang, Weiwei and Pourreza, Mohammadreza and Zhang, Yong</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 31st International Conference on Computational Linguistics (COLING 2025)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2025.coling-main.544/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2024</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">BCAmirs at SemEval-2024 Task 4: Beyond Words: A Multimodal and Multilingual Exploration of Persuasion in Memes</div>
+	<div style="font-weight:300">Abaskohi, Amirhossein and Dabiriaghdam, Amirhossein and Wang, Lele and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 18th International Workshop on Semantic Evaluation (SemEval-2024)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2024.semeval-1.203/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Multi-modal Video Topic Segmentation with Dual-Contrastive Domain Adaptation</div>
+	<div style="font-weight:300">Xing, Linzi and Tran, Quan and Caba, Fabian and Dernoncourt, Farnck and Yoon, Seunghyun and Wang, Zhaowen and Bui, Trung and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the International Conference on Multimedia Modeling 2024 (MMM 2024)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://link.springer.com/chapter/10.1007/978-3-031-53311-2_30" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Multi-modal Video Topic Segmentation with Dual-Contrastive Domain Adaptation</div>
+	<div style="font-weight:300">Xing, Linzi and Tran, Quan and Caba, Fabian and Dernoncourt, Farnck and Yoon, Seunghyun and Wang, Zhaowen and Bui, Trung and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the International Conference on Multimedia Modeling 2024 (MMM 2024)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://link.springer.com/chapter/10.1007/978-3-031-53311-2_30" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Personalized Abstractive Summarization by Tri-agent Generation Pipeline</div>
+	<div style="font-weight:300">Xiao, Wen and Xie, Yujia and Carenini, Giuseppe and He, Pengcheng</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of the Association for Computational Linguistics: EACL 2024</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2305.02483" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2023</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Mixture-of-Linguistic-Experts Adapters for Improving and Interpreting Pre-trained Language Models</div>
+	<div style="font-weight:300">Li, Raymond and Murray, Gabriel and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of the Association for Computational Linguistics: EMNLP 2023</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2023.findings-emnlp.634/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Entity-based SpanCopy for Abstractive Summarization to Improve the Factual Consistency</div>
+	<div style="font-weight:300">Xiao, Wen and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 4th Workshop on Computational Approaches to Discourse (CODI 2023)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2023.codi-1.9/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Diversity-Aware Coherence Loss for Improving Neural Topic Models</div>
+	<div style="font-weight:300">Li, Raymond and Gonzalez-Pizarro, Felipe and Xing, Linzi and Murray, Gabriel and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2023.acl-short.145" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/raymondzmc/Topic-Model-Diversity-Aware-Coherence-Loss" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Tracing Influence at Scale: A Contrastive Learning Approach to Linking Public Comments and Regulator Responses</div>
+	<div style="font-weight:300">Xing, Linzi and Hackinen, Brad and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the Natural Legal Language Processing Workshop 2023 (NLLP 2023)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2023.nllp-1.26" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/bradhackinen/comment_response_linking" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">MemeCap: A Dataset for Captioning and Interpreting Memes</div>
+	<div style="font-weight:300">Hwang, EunJeong and Shwartz, Vered</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2023.emnlp-main.89" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/eujhwang/meme-cap" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Aligning Language Models to User Opinions</div>
+	<div style="font-weight:300">Hwang, EunJeong and Majumder, Bodhisattwa and Tandon, Niket</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of the Association for Computational Linguistics: EMNLP 2023</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2023.findings-emnlp.393" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/eujhwang/personalized-llms" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Knowledge Graph Compression Enhances Diverse Commonsense Generation</div>
+	<div style="font-weight:300">Hwang, EunJeong and Thost, Veronika and Shwartz, Vered and Ma, Tengfei</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2023.emnlp-main.37" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/eujhwang/KG-Compression" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Discourse Structure Extraction from Pre-Trained and Fine-Tuned Language Models in Dialogues</div>
+	<div style="font-weight:300">Li, Chuyuan and Huber, Patrick and Xiao, Wen and Amblard, Maxime and Braud, Chloé and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of the Association for Computational Linguistics: EACL 2023</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://hal.univ-lorraine.fr/hal-04031267" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/chuyuanli/PLM4DiscStruct" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2022</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">An Analysis of Virtual Nodes in Graph Neural Networks for Link Prediction</div>
+	<div style="font-weight:300">Hwang, EunJeong and Thost, Veronika and Dasgupta, Shib Sankar and Ma, Tengfei</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">The First Learning on Graphs Conference 2022</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://openreview.net/forum?id=dI6KBKNRp7" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/eujhwang/vn-analysis" target="_blank">code</a>
+		
+		
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_video" href="https://www.youtube.com/watch?v=b7ak7FgZQa4&amp;t=5273s" target="_blank">video</a>
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Human Guided Exploitation of Interpretable Attention Patterns in Summarization and Topic Segmentation</div>
+	<div style="font-weight:300">Li, Raymond and Xiao, Wen and Xing, Linzi and Wang, Lanjun and Murray, Gabriel and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2022.emnlp-main.694" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/raymondzmc/Attention-Pattern-Exploitation" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">OSLAT: Open Set Label Attention Transformer for Medical Entity Retrieval and Span Extraction</div>
+	<div style="font-weight:300">Li, Raymond and Valmianski, Ilya and Deng, Li and Amatriain, Xavier and Kannan, Anitha</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2nd Machine Learning for Health symposium (ML4H)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://proceedings.mlr.press/v193/li22a.html" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/curai/curai-research/tree/main/OSLAT" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Towards Understanding Large-Scale Discourse Structures in Pre-Trained and Fine-Tuned Language Models</div>
+	<div style="font-weight:300">Huber, Patrick and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2204.04289" target="_blank">paper</a>
+	
+		
+		
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_video" href="https://underline.io/events/325/sessions/11421/lecture/53726-towards-understanding-large-scale-discourse-structures-in-pre-trained-and-fine-tuned-language-models
+" target="_blank">video</a>
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">CCQA: A New Web-Scale Question Answering Dataset for Model Pre-Training</div>
+	<div style="font-weight:300">Huber, Patrick and Aghajanyan, Armen and Oguz, Barlas and Okhonko, Dmytro and Yih, Wen-tau and Gupta, Sonal and Chen, Xilun</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/pdf/2110.07731.pdf" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/facebookresearch/CCQA" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Automatic Detection of Entity-Manipulated Text Using Factual Knowledge</div>
+	<div style="font-weight:300">Jawahar, Ganesh and Abdul-Mageed, Muhammad and Lakshmanan, Laks V.S.</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2203.10343" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">AraT5: Text-to-Text Transformers for Arabic Language Generation</div>
+	<div style="font-weight:300">Nagoudi, El Moatez Billah and Elmadany, AbdelRahim and Abdul-Mageed, Muhammad</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2109.12068" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Dim Wihl Gat Tun: The case for linguistic expertise in NLP for under-documented languages</div>
+	<div style="font-weight:300">Forbes, Clarissa and Samir, Farhan and Oliver, Bruce and Yang, Changbing and Coates, Edith and Nicolai, Garrett and Silfverberg, Miikka</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of ACL</div>
+	
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/smfsamir/gitksan-data" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Towards Afrocentric NLP for African Languages: Where We Are and Where We Can Go</div>
+	<div style="font-weight:300">Adebara, Ife and Abdul-Mageed, Muhammad</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2203.08351" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Good Night at 4 pm?! Time Expressions in Different Cultures</div>
+	<div style="font-weight:300">Shwartz, Vered</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of ACL</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2022.findings-acl.224/" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/vered1986/time_expressions" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">It’s not Rocket Science: Interpreting Figurative Language in Narratives</div>
+	<div style="font-weight:300">Tuhin Chakrabarty, Yejin Choi, Vered Shwartz</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Transactions of the Association for Computational Linguistics (TACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00478/111221/It-s-not-Rocket-Science-Interpreting-Figurative" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/tuhinjubcse/FigurativeNarrativeBenchmark" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Primer: Pyramid-based masked sentence pre-training for multi-document summarization</div>
+	<div style="font-weight:300">Xiao, Wen and Beltagy, Iz and Carenini, Giuseppe and Cohan, Arman</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2110.08499" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Predicting Above-Sentence Discourse Structure using Distant Supervision from Topic Segmentation</div>
+	<div style="font-weight:300">Huber, Patrick and Xing, Linzi and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 36th Conference on Artificial Intelligence (AAAI)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/pdf/2112.06196.pdf" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2021</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Estimating Patient Preferences for Drug Therapies from Online Text Using Aspect-Based Sentiment Analysis</div>
+	<div style="font-weight:300">Dragojlovic, Nick and Johnson, David and Kopac, Nicola and Chen, Yifu and Lenzen, Marilyn and Le Huray, Sarah and Borle, Kennedy and Pollard, Samantha and George, Amy and Regier, Dean A and others</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">42nd Annual Meeting of the Society for Medical Decision Making</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://smdm.confex.com/smdm/2020/meetingapp.cgi/Paper/13686" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">An Improved Attention for Visual Question Answering</div>
+	<div style="font-weight:300">Rahman, Tanzila and Chou, Shih-Han and Sigal, Leonid and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2011.02164" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Unsupervised Learning of Discourse Structures using a Tree Autoencoder</div>
+	<div style="font-weight:300">Huber, Patrick and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 35th Conference on Artificial Intelligence (AAAI)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://ojs.aaai.org/index.php/AAAI/article/view/17549/17356" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Exploring neural models for predicting dementia from language</div>
+	<div style="font-weight:300">Kong, Weirui and Jang, Hyeju and Carenini, Giuseppe and Field, Thalia S</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Computer Speech &amp; Language</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.sciencedirect.com/science/article/pii/S0885230820301145?dgcid=rss_sd_all" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Tracking COVID-19 discourse on twitter in North America: Infodemiology study using topic modeling and aspect-based sentiment analysis</div>
+	<div style="font-weight:300">Jang, Hyeju and Rempel, Emily and Roth, David and Carenini, Giuseppe and Janjua, Naveed Zafar</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Journal of medical Internet research</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.jmir.org/2021/2/e25431/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Abstract P63: Post-Stroke Cognitive Complaints and Normal MoCA Scores: A Possible Role for Machine Learning-Augmented Cognitive Screening</div>
+	<div style="font-weight:300">Field, Thalia S and Zhang, Ming and Jang, Hyeju and Rebchuk, Alexander D and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Stroke</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.ahajournals.org/doi/10.1161/str.52.suppl_1.P63" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Predicting Discourse Trees from Transformer-based Neural Summarizers</div>
+	<div style="font-weight:300">Xiao, Wen and Huber, Patrick and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2021.naacl-main.326/" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/Wendy-Xiao/summ_guided_disco_parser" target="_blank">code</a>
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_slides" href="https://wendy-xiao.github.io/files/NAACL_slides.pdf" target="_blank">slides</a>
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_poster" href="https://wendy-xiao.github.io/files/NAACL_poster.pdf" target="_blank">poster</a>
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">KW-ATTN: Knowledge Infused Attention for Accurate and Interpretable Text Classification</div>
+	<div style="font-weight:300">Jang, Hyeju and Bang, Seojin and Xiao, Wen and Carenini, Giuseppe and Ng, Raymond and ji Lee, Young</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of Deep Learning Inside Out (DeeLIO): The 2nd Workshop on Knowledge Extraction and Integration for Deep Learning Architectures</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2021.deelio-1.10.pdf" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Demoting the Lead Bias in News Summarization via Alternating Adversarial Learning</div>
+	<div style="font-weight:300">Xing, Linzi and Xiao, Wen and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2021.acl-short.119.pdf" target="_blank">paper</a>
+	
+		
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_poster" href="https://underline.io/lecture/25918-demoting-the-lead-bias-in-news-summarization-via-alternating-adversarial-learning" target="_blank">poster</a>
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">W-RST: Towards a Weighted RST-style Discourse Framework</div>
+	<div style="font-weight:300">Huber, Patrick and Xiao, Wen and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2021.acl-long.302/" target="_blank">paper</a>
+	
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_slides" href="https://d3smihljt9218e.cloudfront.net/lecture/25658/slideshow/85192557a89162ef55d2fb92ecdddc66.pdf" target="_blank">slides</a>
+		
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_video" href="https://underline.io/lecture/25658-w-rst-towards-a-weighted-rst-style-discourse-framework" target="_blank">video</a>
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Improving unsupervised dialogue topic segmentation with utterance-pair coherence scoring</div>
+	<div style="font-weight:300">Xing, Linzi and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2021)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2021.sigdial-1.18.pdf" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/lxing532/Dialogue-Topic-Segmenter" target="_blank">code</a>
+		
+		
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_video" href="https://www.youtube.com/watch?v=04Urc5LRBlk" target="_blank">video</a>
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Differentiating memory clinic patients and healthy volunteers using machine-learning analysis of speech and eye movements during a reading task</div>
+	<div style="font-weight:300">Soroski, Thomas and Barral, Oswald and Jang, Hyeju and Newton-Mason, Sally May and Shajan, Sheetal and Tutt, Pavan and Granby, Saffrin and Rizzo, Matteo and Chui, Diego and Teng, Minnie Y and others</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Alzheimer’s &amp; Dementia</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.055717" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Classification of Alzheimer’s Disease Leveraging Multi-task Machine Learning Analysis of Speech and Eye-Movement Data</div>
+	<div style="font-weight:300">Jang, Hyeju and Soroski, Thomas and Rizzo, Matteo and Barral, Oswald and Harisinghani, Anuj and Newton-Mason, Sally and Granby, Saffrin and da Cunha Vasco, Thiago Monnerat Stutz and Lewis, Caitlin and Tutt, Pavan and others</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Frontiers in human neuroscience</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.frontiersin.org/articles/10.3389/fnhum.2021.716670/full" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Applications of aspect-based sentiment analysis on psychiatric clinical notes to study suicide in youth</div>
+	<div style="font-weight:300">George, Amy and Johnson, David and Carenini, Giuseppe and Eslami, Ali and Ng, Raymond and Portales-Casamar, Elodie</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">AMIA annual symposium proceedings</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://pubmed.ncbi.nlm.nih.gov/34457137/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">ConVIScope: Visual Analytics for Exploring Patient Conversations</div>
+	<div style="font-weight:300">Li, Raymond and Hoque, Enamul and Carenini, Giuseppe and Lester, Richard and Chau, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">2021 IEEE Visualization Conference (VIS)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2108.13514" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Proceedings of the Third Workshop on New Frontiers in Summarization</div>
+	<div style="font-weight:300">Carenini, Giuseppe and Cheung, Jackie Chi Kit and Dong, Yue and Liu, Fei and Wang, Lu</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the Third Workshop on New Frontiers in Summarization</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2021.newsum-1.0/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">T3-Vis: visual analytic for Training and fine-Tuning Transformers in NLP</div>
+	<div style="font-weight:300">Li, Raymond and Xiao, Wen and Wang, Lanjun and Jang, Hyeju and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://arxiv.org/abs/2108.13587" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">ARBERT &amp; MARBERT: Deep Bidirectional Transformers for Arabic</div>
+	<div style="font-weight:300">Abdul-Mageed, Muhammad and Elmadany, AbdelRahim and Nagoudi, El Moatez Billah</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the ACL-IJCNLP 2021 Main Conference</div>
+	
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Improving Similar Language Translation With Transfer Learning</div>
+	<div style="font-weight:300">Adebara, Ife and Abdul-Mageed, Muhammad</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the Sixth Conference on Machine Translation</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2021.wmt-1.27" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2020</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">NJM-Vis: interpreting neural joint models in NLP</div>
+	<div style="font-weight:300">Johnson, David and Carenini, Giuseppe and Murray, Gabriel</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 25th International Conference on Intelligent User Interfaces</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/abs/10.1145/3377325.3377513" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Exploratory analysis of COVID-19 related tweets in North America to inform public health institutes</div>
+	<div style="font-weight:300">Jang, Hyeju and Rempel, Emily and Carenini, Giuseppe and Janjua, Naveed</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">arXiv preprint arXiv:2007.02452</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.nlpcovid19-2.18/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Non-Invasive classification of Alzheimer’s disease using eye tracking and language</div>
+	<div style="font-weight:300">Barral, Oswald and Jang, Hyeju and Newton-Mason, Sally and Shajan, Sheetal and Soroski, Thomas and Carenini, Giuseppe and Conati, Cristina and Field, Thalia</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Machine Learning for Healthcare Conference</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://proceedings.mlr.press/v126/barral20a.html" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Neural RST-based Evaluation of Discourse Coherence</div>
+	<div style="font-weight:300">Guz, Grigorii and Bateni, Peyman and Muglich, Darius and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">AACL 2020</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.aacl-main.67" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/grig-guz/coherence-rst" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Neural data-driven captioning of time-series line charts</div>
+	<div style="font-weight:300">Spreafico, Andrea and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the International Conference on Advanced Visual Interfaces</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/abs/10.1145/3399715.3399829" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Improving context modeling in neural topic segmentation</div>
+	<div style="font-weight:300">Xing, Linzi and Hackinen, Brad and Carenini, Giuseppe and Trebbi, Francesco</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing (AACL-IJCNLP 2020)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.aacl-main.63.pdf" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/lxing532/improve_topic_seg" target="_blank">code</a>
+		
+		
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_video" href="https://www.youtube.com/watch?v=55dBz7O7zr8" target="_blank">video</a>
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">From Sentiment Annotations to Sentiment Prediction through Discourse Augmentation</div>
+	<div style="font-weight:300">Huber, Patrick and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 28th International Conference on Computational Linguistics (COLING)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.coling-main.16.pdf" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">MEGA RST Discourse Treebanks with Structure and Nuclearity from Scalable Distant Sentiment Supervision</div>
+	<div style="font-weight:300">Huber, Patrick and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.emnlp-main.603/" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/nlpat/MEGA-DT" target="_blank">code</a>
+		
+		
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_video" href="https://papertalk.org/papertalks/11278" target="_blank">video</a>
+		
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_software" href="https://nlp.cs.ubc.ca/mega-dt" target="_blank">software</a>
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Unleashing the Power of Neural Discourse Parsers–A Context and Structure Aware Approach Using Large Scale Pretraining</div>
+	<div style="font-weight:300">Guz, Grigorii and Huber, Patrick and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 28th International Conference on Computational Linguistics (COLING)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.coling-main.337" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/grig-guz/rst-large-scale" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Do We Really Need That Many Parameters In Transformer For Extractive Summarization? Discourse Can Help!</div>
+	<div style="font-weight:300">Xiao, Wen and Huber, Patrick and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 1st Workshop on Computational Approaches to Discourse (CODI)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.codi-1.13.pdf" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/Wendy-Xiao/ext_summ_disco_tree_attn" target="_blank">code</a>
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_slides" href="https://wendy-xiao.github.io/files/codi2020_slides.pdf" target="_blank">slides</a>
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Coreference for discourse parsing: A neural approach</div>
+	<div style="font-weight:300">Guz, Grigorii and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the First Workshop on Computational Approaches to Discourse</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.codi-1.17" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/grig-guz/rst-coref" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Towards Domain-Independent Text Structuring Trainable on Large Discourse Treebanks</div>
+	<div style="font-weight:300">Guz, Grigorii and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Findings of the Association for Computational Linguistics: EMNLP 2020 + Proceedings of the Workshop on Discourse Theories for Text Planning</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/2020.findings-emnlp.281/" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/grig-guz/tree-content-structuring" target="_blank">code</a>
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Systematically exploring redundancy reduction in summarizing long documents</div>
+	<div style="font-weight:300">Xiao, Wen and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing (AACL-IJCNLP 2020)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.aclweb.org/anthology/2020.aacl-main.51/" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/Wendy-Xiao/redundancy_reduction_longdoc" target="_blank">code</a>
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_slides" href="https://wendy-xiao.github.io/files/aacl2020_slides.pdf" target="_blank">slides</a>
+		
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_video" href="https://www.youtube.com/watch?v=EtwLHwK7QBo" target="_blank">video</a>
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Machine learning analysis of speech and eye tracking data to distinguish Alzheimer’s clinic patients from healthy controls: Biomarkers: Searching for Alzheimer’s through the eyes</div>
+	<div style="font-weight:300">Field, Thalia S and Newton-Mason, Sally May and Shajan, Sheetal and Barral, Oswald and Jang, Hyeju and Soroski, Thomas and O’Neill, Zoe and Conati, Cristina and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Alzheimer’s &amp; Dementia</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/alz.046742" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2019</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Modeling content and structure for abstractive review summarization</div>
+	<div style="font-weight:300">Gerani, Shima and Carenini, Giuseppe and Ng, Raymond T</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Computer Speech &amp; Language</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://journals.scholarsportal.info/details/08852308/v53icomplete/302_mcasfars.xml" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Interactive topic hierarchy revision for exploring a collection of online conversations</div>
+	<div style="font-weight:300">Hoque, Enamul and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Information Visualization</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://journals.sagepub.com/doi/abs/10.1177/1473871618757228?journalCode=ivia" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Neural prediction of patient needs in an ovarian cancer online discussion forum</div>
+	<div style="font-weight:300">Jang, Hyeju and Lee, Young Ji and Carenini, Giuseppe and Ng, Raymond and Campbell, Grace and Ho, Kendall</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Canadian Conference on Artificial Intelligence</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.springerprofessional.de/en/neural-prediction-of-patient-needs-in-an-ovarian-cancer-online-d/16736638" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Discourse analysis and its applications</div>
+	<div style="font-weight:300">Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond and Murray, Gabriel</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/P19-4003/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Gaze analysis of user characteristics in magazine style narrative visualizations</div>
+	<div style="font-weight:300">Toker, Dereck and Conati, Cristina and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">User Modeling and User-Adapted Interaction</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://psycnet.apa.org/record/2019-52565-001" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Evaluating topic quality with posterior variability</div>
+	<div style="font-weight:300">Xing, Linzi and Paul, Michael J and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/D19-1349.pdf" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/lxing532/topic_variability" target="_blank">code</a>
+		
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_poster" href="https://github.com/lxing532/al-folio_old/blob/master/assets/pdf/emnlp19poster.pdf" target="_blank">poster</a>
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">A neural model for predicting dementia from language</div>
+	<div style="font-weight:300">Kong, Weirui and Jang, Hyeju and Carenini, Giuseppe and Field, Thalia</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Machine Learning for Healthcare Conference</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://proceedings.mlr.press/v106/kong19a/kong19a.pdf" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Extractive summarization of long documents by combining global and local context</div>
+	<div style="font-weight:300">Xiao, Wen and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/D19-1298.pdf" target="_blank">paper</a>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_code" href="https://github.com/Wendy-Xiao/Extsumm_local_global_context" target="_blank">code</a>
+		
+		
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_poster" href="https://wendy-xiao.github.io/files/posterEMNLP19_final.pdf" target="_blank">poster</a>
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Predicting Discourse Structure using Distant Supervision from Sentiment</div>
+	<div style="font-weight:300">Huber, Patrick and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/D19-1235/" target="_blank">paper</a>
+	
+		
+		
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_video" href="https://vimeo.com/426349873" target="_blank">video</a>
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Comparing the intrinsic performance of clinical concept embeddings by their field of medicine</div>
+	<div style="font-weight:300">Nunez, John-Jose and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the Tenth International Workshop on Health Text Mining and Information Analysis (LOUHI 2019)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/D19-6202/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Proceedings of the 2nd Workshop on New Frontiers in Summarization</div>
+	<div style="font-weight:300">Wang, Lu and Cheung, Jackie Chi Kit and Carenini, Giuseppe and Liu, Fei</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2nd Workshop on New Frontiers in Summarization</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/D19-5400/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Octvis: ontology-based comparison of topic models</div>
+	<div style="font-weight:300">Ge, Amon and Jang, Hyeju and Carenini, Giuseppe and Ho, Kendall and Lee, Young Ji</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">2019 IEEE Visualization Conference (VIS)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://ieeexplore.ieee.org/abstract/document/8933646" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2018</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">User-adaptive support for processing magazine style narrative visualizations: Identifying user characteristics that matter</div>
+	<div style="font-weight:300">Toker, Dereck and Conati, Cristina and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">23rd International Conference on Intelligent User Interfaces</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/abs/10.1145/3172944.3173009" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">NLP for conversations: Sentiment, summarization, and group dynamics</div>
+	<div style="font-weight:300">Murray, Gabriel and Carenini, Giuseppe and Joty, Shafiq</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 27th International Conference on Computational Linguistics: Tutorial Abstracts</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/C18-3001/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Discourse processing and its applications in text mining</div>
+	<div style="font-weight:300">Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T and Murray, Gabriel</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">2018 IEEE International Conference on Data Mining (ICDM)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://ieeexplore.ieee.org/document/8594823" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Identifying Language Features Associated with Needs of Ovarian Cancer Patients and Caregivers Using Social Media (Poster)</div>
+	<div style="font-weight:300">Lee, Young Ji and Jang, Hyeju and Campbell, Grace and Carenini, Giuseppe and Thomas, Teresa and Donovan, Heidi</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">INTERNATIONAL JOURNAL OF GYNECOLOGICAL CANCER</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://pubmed.ncbi.nlm.nih.gov/33577203/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2017</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">CQAVis: Visual text analytics for community question answering</div>
+	<div style="font-weight:300">Hoque, Enamul and Joty, Shafiq and Marquez, Luis and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 22nd International Conference on Intelligent User Interfaces</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.semanticscholar.org/paper/CQAVis%3A-Visual-Text-Analytics-for-Community-Hoque-Joty/b039a7df6d54cb13a9bd9293f42b6c4025458012" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Domain adaptation for detecting mild cognitive impairment</div>
+	<div style="font-weight:300">Masrani, Vaden and Murray, Gabriel and Field, Thalia Shoshana and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Canadian Conference on Artificial Intelligence</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://canarycognition.med.ubc.ca/domain-adaptation-for-detecting-mild-cognitive-impairment/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Detecting dementia through retrospective analysis of routine blog posts by bloggers with dementia</div>
+	<div style="font-weight:300">Masrani, Vaden and Murray, Gabriel and Field, Thalia and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">BioNLP 2017</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W17-2329/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Automatic community creation for abstractive spoken conversations summarization</div>
+	<div style="font-weight:300">Singla, Karan and Stepanov, Evgeny and Bayer, Ali Orkan and Carenini, Giuseppe and Riccardi, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the workshop on new frontiers in summarization</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W17-4506/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Multimedia Summary Generation from Online Conversations: Current Approaches and Future Directions</div>
+	<div style="font-weight:300">Hoque, Enamul and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the Workshop on New Frontiers in Summarization</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W17-4502/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Generating and Evaluating Summaries for Partial Email Threads: Conversational Bayesian Surprise and Silver Standards</div>
+	<div style="font-weight:300">Johnson, Jordon and Masrani, Vaden and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 18th Annual SIGdial Meeting on Discourse and Dialogue</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W17-5532/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Exploring joint neural model for sentence level discourse parsing and sentiment analysis</div>
+	<div style="font-weight:300">Nejat, Bita and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 18th Annual SIGdial Meeting on Discourse and Dialogue</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W17-5535/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Proceedings of the Workshop on New Frontiers in Summarization</div>
+	<div style="font-weight:300">Wang, Lu and Cheung, Jackie Chi Kit and Carenini, Giuseppe and Liu, Fei</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the Workshop on New Frontiers in Summarization</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/volumes/W17-45/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">[TD-P-002]: IMPROVING DIAGNOSTIC ACCURACY OF ALZHEIMER’S DISEASE FROM SPEECH ANALYSIS USING MARKERS OF HEMISPATIAL NEGLECT</div>
+	<div style="font-weight:300">Field, Thalia S and Masrani, Vaden and Murray, Gabriel and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Alzheimer’s &amp; Dementia</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.researchgate.net/publication/320525456_IMPROVING_DIAGNOSTIC_ACCURACY_OF_ALZHEIMER’S_DISEASE_FROM_SPEECH_ANALYSIS_USING_MARKERS_OF_HEMISPATIAL_NEGLECT" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Opinion summarization and visualization</div>
+	<div style="font-weight:300">Murray, Gabriel and Hoque, Enamul and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Sentiment Analysis in Social Networks</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.sciencedirect.com/science/article/pii/B9780128044124000115" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Chat disentanglement: Identifying semantic reply relationships with random forests and recurrent neural networks</div>
+	<div style="font-weight:300">Mehri, Shikib and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/I17-1062/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2016</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Interactive topic modeling for exploring asynchronous online conversations: Design and evaluation of ConVisIT</div>
+	<div style="font-weight:300">Hoque, Enamul and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">ACM Transactions on Interactive Intelligent Systems (TiiS)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/10.1145/2854158" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Multiconvis: A visual text analytics system for exploring a collection of online conversations</div>
+	<div style="font-weight:300">Hoque, Enamul and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 21st international conference on intelligent user interfaces</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/10.1145/2856767.2856782" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Exploring user-adaptive visualization techniques with Multi-Modal Documents</div>
+	<div style="font-weight:300">Toker, Dereck and Conati, Cristina and Carenini, Giuseppe and Munzner, Tamara and Enns, James</div>
+	
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">An interactive system for exploring community question answering forums</div>
+	<div style="font-weight:300">Hoque, Enamul and Joty, Shafiq and Màrquez, Lluı́s and Barrón-Cedeño, Alberto and Da San Martino, Giovanni and Moschitti, Alessandro and Nakov, Preslav and Romeo, Salvatore and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: System Demonstrations</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/C16-2001/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Training data enrichment for infrequent discourse relations</div>
+	<div style="font-weight:300">Jiang, Kailang and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/C16-1245/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Proceedings of the 17th Annual Meeting of the Special Interest Group on Discourse and Dialogue</div>
+	<div style="font-weight:300">Fernández, Raquel and Minker, Wolfgang and Carenini, Giuseppe and Higashinaka, Ryuichiro and Artstein, Ron and Gainer, Alesia</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 17th Annual Meeting of the Special Interest Group on Discourse and Dialogue</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/volumes/W16-36/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2015</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">CODRA: A novel discriminative framework for rhetorical analysis</div>
+	<div style="font-weight:300">Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Computational Linguistics</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/J15-3002/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Convisit: Interactive topic modeling for exploring asynchronous online conversations</div>
+	<div style="font-weight:300">Hoque, Enamul and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 20th International Conference on Intelligent User Interfaces</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/10.1145/2854158" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2014</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Interactive exploration of asynchronous conversations: Applying a user-centered approach to design a visual text analytic system</div>
+	<div style="font-weight:300">Hoque, Enamul and Carenini, Giuseppe and Joty, Shafiq</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the Workshop on Interactive Language Learning, Visualization, and Interfaces</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W14-3107/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Extractive summarization and dialogue act modeling on email threads: An integrated probabilistic approach</div>
+	<div style="font-weight:300">Oya, Tatsuro and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 15th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W14-4318/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Abstractive summarization of spoken and written conversations based on phrasal queries</div>
+	<div style="font-weight:300">Mehdad, Yashar and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/P14-1115/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Convis: A visual text analytic system for exploring blog conversations</div>
+	<div style="font-weight:300">Hoque, Enamul and Carenini, Giuseppe</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Computer Graphics Forum</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/10.1145/2856767.2856782" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Detecting disagreement in conversations using pseudo-monologic rhetorical structure</div>
+	<div style="font-weight:300">Allen, Kelsey and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/D14-1124/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Abstractive summarization of product reviews using discourse structure</div>
+	<div style="font-weight:300">Gerani, Shima and Mehdad, Yashar and Carenini, Giuseppe and Ng, Raymond and Nejat, Bita</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/D14-1168/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">A template-based abstractive meeting summarization: Leveraging summary and source text relationships</div>
+	<div style="font-weight:300">Oya, Tatsuro and Mehdad, Yashar and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 8th International Natural Language Generation Conference (INLG)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W14-4407/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2013</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Multi-document summarization of evaluative text</div>
+	<div style="font-weight:300">Carenini, Giuseppe and Cheung, Jackie Chi Kit and Pauls, Adam</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Computational Intelligence</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/E06-1039/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Combining intra-and multi-sentential rhetorical parsing for document-level discourse analysis</div>
+	<div style="font-weight:300">Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond and Mehdad, Yashar</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/P13-1048/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Towards Topic Labeling with Phrase Entailment and Aggregation.</div>
+	<div style="font-weight:300">Mehdad, Yashar and Carenini, Giuseppe and Ng, Raymond T and Joty, Shafiq R</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">HLT-NAACL</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/N13-1018/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Abstractive meeting summarization with entailment and fusion</div>
+	<div style="font-weight:300">Mehdad, Yashar and Carenini, Giuseppe and Tompa, Frank and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 14th European Workshop on Natural Language Generation</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W13-2117/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Topic segmentation and labeling in asynchronous conversations</div>
+	<div style="font-weight:300">Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Journal of Artificial Intelligence Research</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/10.5555/2566972.2566986" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Dialogue act recognition in synchronous and asynchronous conversations</div>
+	<div style="font-weight:300">Maryam, Tavafi</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W13-4017.pdf" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+<h5 style="font-family: &quot;Spartan&quot;;font-weight:100; text-align: left">2012</h5>
+<hr style="width: 100%; opacity: 0.45; " />
+
+<ul class="bibliography"><li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Introduction to the Special Section on Intelligent Visual Interfaces for Text Analysis</div>
+	<div style="font-weight:300">Liu, Shixia and Zhou, Michelle X and Carenini, Giuseppe and Qu, Huamin</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">ACM Transactions on Intelligent Systems and Technology (TIST)</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://dl.acm.org/doi/10.1145/2089094.2089095" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Detecting informative blog comments using tree structured conditional random fields</div>
+	<div style="font-weight:300">Jin, Wei and Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">NWNLP, Microsoft Research, Redmond</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.460.9296&amp;rep=rep1&amp;type=pdf" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Using the omega index for evaluating abstractive community detection</div>
+	<div style="font-weight:300">Murray, Gabriel and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of Workshop on Evaluation Metrics and System Comparison for Automatic Summarization</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/W12-2602/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">A novel discriminative framework for sentence-level discourse analysis</div>
+	<div style="font-weight:300">Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://aclanthology.org/D12-1083/" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">Methods for mining and summarizing text conversations</div>
+	<div style="font-weight:300">Carenini, Giuseppe and Murray, Gabrial</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">Proceedings of the 35th international ACM SIGIR conference on Research and development in information retrieval</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.morganclaypool.com/doi/abs/10.2200/S00363ED1V01Y201105DTM017" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li>
+<li><div style="text-align: left; margin-left: 10px; margin-top: 15px; margin-bottom: 15px">
+	<div style="font-family: &quot;Spartan&quot;;font-weight:500">A Visual Interface for Analyzing Text Conversations</div>
+	<div style="font-weight:300">Rashid, Shama and Carenini, Giuseppe and Ng, Raymond</div>
+	
+		<div style="font-weight:100; padding-bottom: 5px">International Workshop on Business Intelligence for the Real-Time Enterprise</div>
+	
+	
+		<a style="font-weight:200; display: inline-block; margin-bottom:3px" class="citation_badge_paper" href="https://www.cs.ubc.ca/ carenini/PAPERS/birte2012-RashidCarenini.pdf" target="_blank">paper</a>
+	
+		
+		
+	
+		
+		
+		
+	
+</div>
+</li></ul>
+
+
+			    </div>
+		</div>
+	</div>
+</div>
+<footer style="margin-top:50px">
+  <div class="row z-depth-4" style="margin-bottom: 0px; background-color: #97D4E9;">
+  <div class="col l8 m10 s12 left-align offset-l2 offset-m1">
+      <div class="col l6 m8 s12 left-align">
+        <div style="margin:20px">
+            <div><b>Room X460</b></div>
+            <div><b>Department of Computer Science</b></div>
+            <div>201-2366 Main Mall</div>
+            <div>Vancouver, BC Canada</div>
+            <div>V6T 1Z4</div>
+          <div>E-mail: <a href="mailto:ubc-nlp@cs.ubc.ca">ubc-nlp@cs.ubc.ca</a></div>
+        </div>
+      </div>
+      <div class="col l6 m4 s12 right-align">
+      <div style="margin: 20px;">
+          <b>Find us on</b>
+          <div>
+              <a href="https://twitter.com/UBC_NLP"><img src="/assets/img/icons/twitter-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+              <a href="https://github.com/NLP-UBC"><img src="/assets/img/icons/github-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row z-depth-4" style="margin-bottom: 0px; background-color: #002145;">
+  <div class="col l4 m4 s12 center-align"> 
+      <img src="/assets/img/ubc_dark.png" style="width:100%; min-width:200px; max-width: 300px; padding-top:15px; padding-left:15px; float: left;">
+  </div>
+
+  <div class="col l8 m8 s12 center-align"> 
+    <div class="col l5 m6 s12" style="color: #EDEDEF; padding-top:18px; padding-right: 5px;">The UBC NLP group is partially sponsored by grants and awards from:
+    </div>
+    <div class="col l7 m6 s12 center-align">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <img src="/assets/img/sponsors/ai2_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/cihr_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/huawei_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/mitacs_logo.jpeg" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/nserc_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+    </div>
+  </body>
+</html>

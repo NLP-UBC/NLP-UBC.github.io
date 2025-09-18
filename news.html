@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>UBC NLP Group | News</title>
+  <meta name="description" content="The Natural Language Processing (NLP) group at University of British Columbia conducts research on core NLP problems, computational linguistics, text mining, and visual text analytics under Profs. Giuseppe Carenini, Raymond Ng and Vered Shwartz.">
+  <link href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/materialize.min.js"></script>
+  <script src="/assets/js/jquery.js"></script>
+  <script src="/assets/js/custom.js"></script>
+  <link rel="shortcut icon" type="image/png" href="/assets/img/nlp.png">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-361W0CW3JN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-361W0CW3JN');
+  </script>
+</head>
+
+  <body>
+    <div class="page-content">
+      <div class="row navbar-fixed z-depth-4" style="background-color: #97D4E9; margin-bottom: 0px; height: 90px;">
+  <nav class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-0" style="background-color: #97D4E9; height: 90px; padding:0px;" >
+    <div class="col l12 m12 s12" style="height: 90px; padding:0px;">
+      <div class="nav-wrapper" style="line-height:1.2;">
+      <div class="col l3 m8 s8 left-align z-depth-0" >
+        <a href="https://www.ubc.ca/">
+          <img src="/assets/img/ubc.png" style="height:80%; max-height: 80px; max-width:120%; padding-top:15px; padding-left:15px; float: left; overflow: hidden;">
+        </a>
+      </div>
+      <div style="padding-top:15px; float:right;">
+        <a href="#" data-target="mobile" class="sidenav-trigger"><i class="large material-icons" style="color: #002145; font-size: 30px">menu</i></a>
+      </div>
+      <div class="right hide-on-med-and-down" style="padding-bottom: 0px; padding-top:30px; padding-right:10px; float:right;">
+        <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></span>
+        
+        
+      
+        
+        
+        
+      
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></span> 
+        
+        
+      
+        
+      
+    </div>
+    </div>
+    </div>
+  <div class="col l12 m12 s12 left-align z-depth-0 valign-wrapper" style="background-color: #002145; height: 80px; width: 100%">
+    <a href="/"><img src="/assets/img/nlp.png" style="height:60px; padding-left:10px; float: right;"></a>
+    <p style="line-height:1.5; margin-left: 20px">
+        <span><a href="https://www.cs.ubc.ca/">Computer Science</a> and <a href="https://linguistics.ubc.ca/">Linguistics</a></span><br />
+      <span style="font-size:14pt"><a href="/">Natural Language Processing Group</a></span>
+    </p>
+    </div>
+  </nav>
+</div>
+<ul class="sidenav" id="mobile">
+  <div style="padding: 10px; margin-top: 10px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></div>
+    
+    
+  
+    
+    
+    
+  
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></div>
+    
+    
+  
+    
+  
+</ul>
+
+<div class="row" style="padding-top: 80px;">
+
+  	<div class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-4" style="background-color: #FFFFFF; padding:0px; padding-bottom: 20px">
+		<div style='margin-bottom: 10px; border-radius: 10px;'>
+				
+					<img src="/assets/img/news.png" style="width:100%; height:150px; object-fit: cover;">
+				
+			    <div style='font-weight:300; text-align: left; padding-left: 10px; padding-right: 10px'>
+			      	<div class="row" style="margin: 0px">
+	<div class="col l12 m12 s12"><h4 id="past-news-from-the-ubc-nlp-group">Past News from the UBC NLP Group</h4>
+</div>
+	
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Jun 2, 2022</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+				<div class="col s12 m6 l5 xl4 align-center" style="padding: 10px"><img class="z-depth-2" src="/assets/img/sigdial_logo_2021_thumbnail.png" style="width:100%; object-fit: cover; float:center"></div>
+				<div class="col s12 m6 l7 xl8" style='font-weight:300'><p>Giuseppe will give a <a href="https://2022.sigdial.org/keynotes/">keynote at SIGDIAL in Sept.</a> !</p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Apr 7, 2022</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Our paper <a href="https://arxiv.org/abs/2204.04289">Towards Understanding Large-Scale Discourse Structures in Pre-Trained and Fine-Tuned Language Models</a> 
+by Patrick Huber and Giuseppe Carenini has been accepted to <a href="https://2022.naacl.org/">NAACL 2022</a> in Seattle.</p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Apr 7, 2022</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Our paper <a href="https://arxiv.org/pdf/2110.07731.pdf">CCQA: A New Web-Scale Question Answering Dataset for Model Pre-Training</a> 
+in collaboration with Facebook Inc. has been accepted to <a href="https://2022.naacl.org/">NAACL 2022</a> Findings.</p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Dec 1, 2021</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Our paper <a href="https://arxiv.org/pdf/2112.06196.pdf">Predicting Above-Sentence Discourse Structure using Distant Supervision from Topic Segmentation</a> 
+by Patrick Huber, Linzi Xing and Giuseppe Carenini has been accepted to <a href="https://aaai.org/Conferences/AAAI-22/">AAAI 2022</a>.</p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Nov 19, 2021</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+				<div class="col s12 m6 l5 xl4 align-center" style="padding: 10px"><img class="z-depth-2" src="/assets/img/people/chuyuan.jpg" style="width:100%; object-fit: cover; float:center"></div>
+				<div class="col s12 m6 l7 xl8" style='font-weight:300'><p>We have a new visiting student. Chuyuan (Lisa) Li joined the UBC NLP group late 2021 for 6 month, working on discourse for dialogues.</p>
+
+<h6 id="welcome-lisa">Welcome Lisa!</h6>
+
+<p><br /></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Aug 1, 2021</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Our paper <a href="https://aclanthology.org/2021.acl-long.302/">W-RST: Towards a Weighted RST-style Discourse Framework</a> 
+by Patrick Huber, Wen Xiao and Giuseppe Carenini has been accepted to <a href="https://2021.aclweb.org/">ACL 2021</a>.</p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Nov 20, 2020</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>More accepted papers in 2020! <a href="https://2020.emnlp.org/">One-EMNLP-long</a>, <a href="https://2020.emnlp.org/">One-EMNLP-Findings</a>, <a href="http://aacl2020.org/">Two-AACL-long</a>, <a href="http://aacl2020.org/">One-AACL-Short</a>, <a href="https://coling2020.org/">Two-COLING-Long</a>, Several papers in <a href="https://codi-workshop.github.io/">CODI</a> and <a href="https://www.nlpcovid19workshop.org/emnlp2020/">COVID019 Workshops</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Aug 6, 2020</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>One paper accepted at <a href="https://www.mlforhc.org/">MLHC 2020</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Nov 7, 2019</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Three papers accepted to <a href="https://2019.emnlp.org/">EMNLP 2019</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Nov 4, 2019</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Co-Organizing EMNLP 2019 Workshop on <a href="https://summarization2019.github.io/">New Frontiers in Summarization</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Oct 25, 2019</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>One short paper accepted and <a href="http://ieeevis.org/year/2019/welcome">InfoVis 2019</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Aug 10, 2019</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>One paper accepted at <a href="https://www.mlforhc.org/2019-conference">MLHC 2019</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Aug 2, 2019</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Tutorial: “<a href="https://ntunlpsg.github.io/project/acl19tutorial/">Discourse Processing and Its Applications</a>,” accepted and presented at <a href="http://www.acl2019.org/">ACL 2019</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>May 31, 2019</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>One short paper accepted at <a href="https://www.caiac.ca/en/conferences/canadianai-2019/home">Canadian AI 2019</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Nov 20, 2018</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Tutorial: “<a href="https://ntunlpsg.github.io/project/icdmtutorial/">Discourse Processing and Its Applications in Text Mining</a>,” accepted and presented at <a href="http://icdm2018.org/">ICDM 2018</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Aug 26, 2018</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Tutorial: “<a href="https://sites.google.com/view/nlpforconversations">NLP for Conversations: Sentiment, Summarization, and Group Dynamics</a>,” accepted and presented <a href="https://coling2018.org/">COLING 2018</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Jul 1, 2018</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p><a href="https://www.yorku.ca/enamulh/">Enamul Hoque</a> starts as an Assistant Professor at York University</p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Feb 23, 2018</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Paper: “<a href="http://journals.sagepub.com/doi/10.1177/1473871618757228">Interactive topic hierarchy revision for exploring a collection of online conversations</a>,” published in <a href="http://journals.sagepub.com/home/ivi">Information Visualization</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Nov 1, 2017</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Paper accepted to <a href="https://aclanthology.org/events/ijcnlp-2017/">IJCNLP 2017</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Sep 7, 2017</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Co-Orgnaized <a href="https://summarization2017.github.io/">EMNLP 2017 Workshop on New Frontiers in Summarization</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Aug 17, 2017</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Two papers accepted to <a href="https://aclanthology.org/events/sigdial-2017/">SIGdial 2017</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>Aug 1, 2017</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Paper accepted to <a href="https://aclanthology.org/volumes/W17-23/">BioNLP 2017</a>, an ACL 2017 Workshop</p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+    <div class="col xl6 l8 m10 s12 offset-l2 offset-xl3 offset-m1 ">
+    	<div class="z-depth-2" style="padding: 10px; margin: 10px; background-color: #FFFFFF">
+    		<div style='margin-top:2px; margin-bottom:2px;font-family: "Spartan"; font-weight:300; font-size:15pt'><p style="text-align: center;"><b>May 19, 2017</b></p></div>
+    		<hr style="width: 60%">
+    		<div class="row" style="margin: 0px">
+      		
+      			<div class="col s12 m12 l12 xl12" style='font-weight:300'><p>Paper accepted to <a href="https://www.caiac.ca/en/conferences/canadianai-2017/home">Canadian Conference on AI 2017</a></p>
+</div>
+			
+    	    </div>
+    	</div>
+    </div>
+    
+</div>
+			    </div>
+		</div>
+	</div>
+</div>
+<footer style="margin-top:50px">
+  <div class="row z-depth-4" style="margin-bottom: 0px; background-color: #97D4E9;">
+  <div class="col l8 m10 s12 left-align offset-l2 offset-m1">
+      <div class="col l6 m8 s12 left-align">
+        <div style="margin:20px">
+            <div><b>Room X460</b></div>
+            <div><b>Department of Computer Science</b></div>
+            <div>201-2366 Main Mall</div>
+            <div>Vancouver, BC Canada</div>
+            <div>V6T 1Z4</div>
+          <div>E-mail: <a href="mailto:ubc-nlp@cs.ubc.ca">ubc-nlp@cs.ubc.ca</a></div>
+        </div>
+      </div>
+      <div class="col l6 m4 s12 right-align">
+      <div style="margin: 20px;">
+          <b>Find us on</b>
+          <div>
+              <a href="https://twitter.com/UBC_NLP"><img src="/assets/img/icons/twitter-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+              <a href="https://github.com/NLP-UBC"><img src="/assets/img/icons/github-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row z-depth-4" style="margin-bottom: 0px; background-color: #002145;">
+  <div class="col l4 m4 s12 center-align"> 
+      <img src="/assets/img/ubc_dark.png" style="width:100%; min-width:200px; max-width: 300px; padding-top:15px; padding-left:15px; float: left;">
+  </div>
+
+  <div class="col l8 m8 s12 center-align"> 
+    <div class="col l5 m6 s12" style="color: #EDEDEF; padding-top:18px; padding-right: 5px;">The UBC NLP group is partially sponsored by grants and awards from:
+    </div>
+    <div class="col l7 m6 s12 center-align">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <img src="/assets/img/sponsors/ai2_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/cihr_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/huawei_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/mitacs_logo.jpeg" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/nserc_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+    </div>
+  </body>
+</html>

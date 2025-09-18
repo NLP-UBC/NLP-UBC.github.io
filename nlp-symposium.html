@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>UBC NLP Group | NLP Symposium</title>
+  <meta name="description" content="The Natural Language Processing (NLP) group at University of British Columbia conducts research on core NLP problems, computational linguistics, text mining, and visual text analytics under Profs. Giuseppe Carenini, Raymond Ng and Vered Shwartz.">
+  <link href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/materialize.min.js"></script>
+  <script src="/assets/js/jquery.js"></script>
+  <script src="/assets/js/custom.js"></script>
+  <link rel="shortcut icon" type="image/png" href="/assets/img/nlp.png">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-361W0CW3JN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-361W0CW3JN');
+  </script>
+</head>
+
+  <body>
+    <div class="page-content">
+      <div class="row navbar-fixed z-depth-4" style="background-color: #97D4E9; margin-bottom: 0px; height: 90px;">
+  <nav class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-0" style="background-color: #97D4E9; height: 90px; padding:0px;" >
+    <div class="col l12 m12 s12" style="height: 90px; padding:0px;">
+      <div class="nav-wrapper" style="line-height:1.2;">
+      <div class="col l3 m8 s8 left-align z-depth-0" >
+        <a href="https://www.ubc.ca/">
+          <img src="/assets/img/ubc.png" style="height:80%; max-height: 80px; max-width:120%; padding-top:15px; padding-left:15px; float: left; overflow: hidden;">
+        </a>
+      </div>
+      <div style="padding-top:15px; float:right;">
+        <a href="#" data-target="mobile" class="sidenav-trigger"><i class="large material-icons" style="color: #002145; font-size: 30px">menu</i></a>
+      </div>
+      <div class="right hide-on-med-and-down" style="padding-bottom: 0px; padding-top:30px; padding-right:10px; float:right;">
+        <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></span>
+        
+        
+      
+        
+        
+        
+      
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></span> 
+        
+        
+      
+        
+        
+          <span class="z-depth-1 waves-effect waves" style="padding: 4px;"><a style="color: #002145; font-size:10pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></span> 
+        
+        
+      
+        
+      
+    </div>
+    </div>
+    </div>
+  <div class="col l12 m12 s12 left-align z-depth-0 valign-wrapper" style="background-color: #002145; height: 80px; width: 100%">
+    <a href="/"><img src="/assets/img/nlp.png" style="height:60px; padding-left:10px; float: right;"></a>
+    <p style="line-height:1.5; margin-left: 20px">
+        <span><a href="https://www.cs.ubc.ca/">Computer Science</a> and <a href="https://linguistics.ubc.ca/">Linguistics</a></span><br />
+      <span style="font-size:14pt"><a href="/">Natural Language Processing Group</a></span>
+    </p>
+    </div>
+  </nav>
+</div>
+<ul class="sidenav" id="mobile">
+  <div style="padding: 10px; margin-top: 10px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/"><b>Home</b></a></div>
+    
+    
+  
+    
+    
+    
+  
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/people"><b>People</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/publications"><b>Publications</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/reading-group"><b>Reading Group</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/showcase"><b>Showcase</b></a></div>
+    
+    
+  
+    
+    
+      <div style="padding: 10px; margin-top: 4px"><a style="color: #002145; font-size:12pt; font-weight:300" class="navbar-anchor" href="/social"><b>Socials</b></a></div>
+    
+    
+  
+    
+  
+</ul>
+
+<div class="row" style="padding-top: 80px;">
+
+  	<div class="col l8 m10 s12 center-align offset-l2 offset-m1 z-depth-4" style="background-color: #FFFFFF; padding:0px; padding-bottom: 20px">
+		<div style='margin-bottom: 10px; border-radius: 10px;'>
+				
+			    <div style='font-weight:300; text-align: left; padding-left: 10px; padding-right: 10px'>
+			      	<h4 id="ubc-nlp-symposium">UBC NLP Symposium</h4>
+
+<blockquote>
+  <p>Monday, July 18, 9:30 - 17:30 <br />
+<a href="https://www.cs.ubc.ca/our-department/maps">ICICS X836, UBC (2366 Main Mall, Vancouver)
+</a> <br /></p>
+</blockquote>
+
+<details>
+  <summary> 09:30 - 10:30 - Invited talk #1. Oskar van der Wal: How can we understand the social biases of language models?
+</summary>  
+  
+<h6> Title </h6>
+How can we understand the social biases of language models?  
+
+  
+<h6> Bio </h6>
+I am a PhD candidate based at the University of Amsterdam—supervised by Katrin Schulz and Willem Zuidema. My research focuses on understanding why language models exhibit social biases using interpretability techniques. On top of that, I study how we can reliably measure bias in NLP and try to ground the discussion of bias in the broader societal perspective.
+
+  
+<h6> Talk abstract </h6>
+Language Models (LMs) have been shown to learn undesirable biases towards certain social groups, which may unfairly influence the decisions, recommendations or texts that AI systems building on those LMs generate.
+As LMs are readily deployed by companies, governments, and other institutions in applications that directly impact the lives of ordinary citizens, detecting undesirable biases in NLP systems and finding ways to mitigate them has emerged as a prominent research field.
+Yet, we still face many challenges in measuring biases due to the black-box nature of these models, let alone mitigating these.
+
+While there are many interesting angles to take, in this talk we will approach the study of bias in LMs from two possible perspectives: the field of interpretability and psychometrics.
+First, the field of interpretability offers a toolbox for better understanding LMs in the face of their black box nature. Research on detecting such biases is crucial, but as new LMs are continuously developed, it is equally important to study how LMs come to be biased in the first place, and what role the training data, architecture, and downstream application play at various phases in the life-cycle of an NLP model.
+Second, the field of psychometrics offers extensive expertise on measuring abstract concepts in psychology like bias. Their theoretical insights and frameworks can help us to evaluate the current state of NLP bias measures and guide future research on understanding social biases in LMs.
+
+</details>
+
+<p>10:15 - 10:30 - Break</p>
+
+<p>10:30 - 11:30 - Student presentation session #1</p>
+
+<p>11:30 - 12:15 - Discussion #1: challenges and limitations of NLP</p>
+
+<p>12:15 - 13:30 - Lunch break</p>
+
+<details>
+  <summary> 13:30 - 15:00 - Invited talk #2. Debora Nozza: Roadmap to universal hate speech detection. </summary> 
+  
+<h6> Title </h6>
+Roadmap to universal hate speech detection.   
+ 
+<h6> Bio </h6>
+Debora Nozza (she/her) is a Postdoctoral Research Fellow in Computing Science at Bocconi University. Her research interests mainly focus on Natural Language Processing, specifically on the detection and counter-acting of hate speech and algorithmic bias on Social Media data in multilingual context. She organized three international shared tasks on multilingual detection of hate speech. She was recently awarded a grant from Fondazione Cariplo for her project MONICA, which will focus on monitoring coverage, attitudes, and accessibility of Italian measures in response to COVID-19. For updated information, see https://dnozza.github.io/.
+
+<h6> Talk abstract </h6>
+An increasing propagation of hate speech has been detected on social media platforms (e.g., Twitter) where (pseudo-)anonymity enables people to target others without being recognized or easily traced. 
+While this societal issue has attracted many studies in the NLP community, it comes with three important challenges. Hate speech detection models should be fair, work on every language, and consider the whole context (e.g., imagery).
+Solving these challenges will revolutionize the field of hate speech detection and help on creating a "universal" model. In this talk, I will present my contributions in this area along with my takes for future directions.
+
+
+</details>
+
+<p>15:00 - 15:30 - Break</p>
+
+<p>15:30 - 16:30 - Student presentation session #2</p>
+
+<p>16:30 - 17:00 - Discussion #2: the future of NLP and its potential benefits</p>
+
+<p>17:00 - 17:10 - Conclusion</p>
+
+<p>For questions, issues and inquiries, please email vshwartz@cs.ubc.ca or zeerak_talat@sfu.ca.</p>
+
+			    </div>
+		</div>
+	</div>
+</div>
+<footer style="margin-top:50px">
+  <div class="row z-depth-4" style="margin-bottom: 0px; background-color: #97D4E9;">
+  <div class="col l8 m10 s12 left-align offset-l2 offset-m1">
+      <div class="col l6 m8 s12 left-align">
+        <div style="margin:20px">
+            <div><b>Room X460</b></div>
+            <div><b>Department of Computer Science</b></div>
+            <div>201-2366 Main Mall</div>
+            <div>Vancouver, BC Canada</div>
+            <div>V6T 1Z4</div>
+          <div>E-mail: <a href="mailto:ubc-nlp@cs.ubc.ca">ubc-nlp@cs.ubc.ca</a></div>
+        </div>
+      </div>
+      <div class="col l6 m4 s12 right-align">
+      <div style="margin: 20px;">
+          <b>Find us on</b>
+          <div>
+              <a href="https://twitter.com/UBC_NLP"><img src="/assets/img/icons/twitter-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+              <a href="https://github.com/NLP-UBC"><img src="/assets/img/icons/github-square.svg" style="height:40px; padding-top:5px; padding-left:5px;"></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row z-depth-4" style="margin-bottom: 0px; background-color: #002145;">
+  <div class="col l4 m4 s12 center-align"> 
+      <img src="/assets/img/ubc_dark.png" style="width:100%; min-width:200px; max-width: 300px; padding-top:15px; padding-left:15px; float: left;">
+  </div>
+
+  <div class="col l8 m8 s12 center-align"> 
+    <div class="col l5 m6 s12" style="color: #EDEDEF; padding-top:18px; padding-right: 5px;">The UBC NLP group is partially sponsored by grants and awards from:
+    </div>
+    <div class="col l7 m6 s12 center-align">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <img src="/assets/img/sponsors/ai2_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/cihr_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/huawei_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/mitacs_logo.jpeg" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+        <img src="/assets/img/sponsors/nserc_logo.png" style="height:60px; background-color: #FFFFFF; padding: 10px; margin-top:30px; margin-bottom:30px; border-radius: 10px">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+    </div>
+  </body>
+</html>

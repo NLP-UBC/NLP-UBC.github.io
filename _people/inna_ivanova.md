@@ -7,5 +7,6 @@ role: student
 img: inna_ivanova.jpg
 link: 
 research: NLP
-status: active
+status: inactive
+job: Software Engineer (Google)
 ---

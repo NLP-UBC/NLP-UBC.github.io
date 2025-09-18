@@ -8,5 +8,5 @@ img:
 link: 
 status: inactive
 research: 
-job: Research Scientist at DeepMind
+job: Faculty member UBC
 ---

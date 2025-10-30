@@ -7,6 +7,12 @@ permalink: /social
 
 ##### A Selection of Recent Social Team Outings:
 
+|![Pumpkin Carving](/assets/img/social/pumpkin_carving_2025.png){: .group_image .z-depth-2}|
+|*Pumpkin Carving (October 2025)*|
+{: .group_fullsize}
+
+<br>
+
 |![Mehar's Birthday (August 2024)](/assets/img/social/20240823_204646.jpg){: .group_image .z-depth-2}|
 |*Mehar's Birthday (August 2024)*|
 {: .group_fullsize}

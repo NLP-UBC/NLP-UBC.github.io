@@ -1,0 +1,96 @@
+<h5 id="distantly--and-self-supervised-approaches-to-infer-discourse">Distantly- and Self-Supervised Approaches to Infer Discourse</h5>
+
+<p>In our recent line of distantly- and self-supervised approaches for RST-style discourse parsing, we aim to generate robust silver-standard discourse trees informed by related downstream tasks.</p>
+
+<p><br /></p>
+
+<h6 id="discourse-from-sentiment-analysis">Discourse from Sentiment Analysis</h6>
+
+<table class="showcase_img_right">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/mega_dt_pipeline.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>MEGA-DT Disocurse Annotation Pipeline</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In our <a href="https://aclanthology.org/D19-1235/">EMNLP 2019</a> and <a href="https://aclanthology.org/2020.emnlp-main.603.pdf">MEGA-DT</a> (published at EMNLP 2020) papers, we propose a combination of a deep multiple instance learning model (MILNet) with the traditional CKY algorithm to generate nuclearity-attributed discourse structures for large-scale sentiment annotated corpora. We show that while the silver-standard discourse trees cannot outperform in-domain supervised discourse parsers, they do capture highly robust structures, which generalize well between domains, reaching the best inter-domain discourse parsing performance to date. Our generated silver-standard discourse treebank containing over 250.000 complete discourse trees in the review domain can be downloaded <a href="/mega-dt">here</a>.</p>
+
+<p><br /></p>
+
+<h6 id="discourse-from-topic-segmentation">Discourse from Topic Segmentation</h6>
+
+<table class="showcase_img_left">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/topic_seg_for_disc.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>Topic Segmentation to Infer High Level Discourse Structures</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Improving on our work using sentiment augmented data to infer discourse structures, we target high-level (above-sentence) discourse structures in our AAAI 2022 work on <a href="https://arxiv.org/abs/2112.06196">Predicting Above-Sentence Discourse Structure using Distant Supervision from Topic Segmentation</a>. We thereby exploit our top-performing neural topic segmentation model presented in <a href="https://aclanthology.org/2020.aacl-main.63/">this paper</a> to greedily segment documents, showing that the generated high-level (binary) discourse structures align well with gold-standard discourse annotations, an important factor for many downstream tasks implicitly or explicitly converting constituency trees into dependency representations.</p>
+
+<p><br /><br /></p>
+
+<h6 id="discourse-from-summarization">Discourse from Summarization</h6>
+
+<table class="showcase_img_right">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/sum4disc.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>Discourse Inference from Transformer Self-Attention Matrices</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Extending our work on distantly-supervised discourse parsing, we explore the auxiliary task of summarization, especially focussing on the nuclearity attribute, which has previously been shown to contain importnat information for summarization related tasks. In our <a href="https://aclanthology.org/2021.naacl-main.326/">NAACL 2021 paper</a>, we show that discourse (dependency) structures can be reasonably inferred using the CKY and Eisner algorithms to extract discourse trees from transformer self-attention matrices, marking an important first step to explore state-of-the-art NLP models for their alignment with discourse information.</p>
+
+<p><br /></p>
+
+<h6 id="discourse-from-tree-style-autoencoders">Discourse from Tree-style Autoencoders</h6>
+
+<table class="showcase_img_left_large">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/tree_ae.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>Unsupervised Tree Auto-Encoder</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In our AAAI 2021 paper on <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17549">Unsupervised Learning of Discourse Structures using a Tree Autoencoder</a>, we aim to generate discourse structures (without nuclearity and relation labels) from the task of tree-style language modelling. In contrast to many modern approaches interpreting the language modelling task as a sequential problem, we explicitly generate discrete tree structures during training and inference. We show that those tree structures learned purely from existing large-scale datasets can reasonably align with discourse and further also supports important downstream tasks (here: sentiment analysis). While the performance is nowhere close to supervised (or distantly-supervised) models, we show first insights into the value of generating more tree-enabled structures for language modelling, potentially valuable for further research in the future.</p>
+
+<p><br /></p>
+
+<h6 id="w-rst-a-weighted-extension-of-discourse-theories">W-RST: A weighted Extension of Discourse Theories</h6>
+
+<table class="showcase_img_right">
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/showcases/wrst.png" alt="Image" class="showcase_img" /></td>
+    </tr>
+    <tr>
+      <td><em>The W-RST framework bridging the gap between Linguistics and NLP</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In a first attempt to bridge the ever growing gap between (Computational) Linguistics and Natural Language Processing, we propose the <a href="https://aclanthology.org/2021.acl-long.302/">Weighted-RST (W-RST) framework</a> at ACL 2021. In this line of work, we explore the usage of readily available real-valued scores in distantly supervised discourse models, namely the <a href="https://aclanthology.org/2020.emnlp-main.603.pdf">MEGA-DT</a> and our <a href="ttps://aclanthology.org/2021.naacl-main.326/">NAACL 2021</a> paper, to generate more fine-grained importance scores between sibling sub-trees (i.e., the RST nuclearity attribute). In our experiments, we show that the weighted RST trees are superior to discourse treuctures with binary nuclearity attributes for most thresholds, and further align well with human annotations.</p>
+
+<p><br /><br /></p>
+
+<h5 id="supervised-discourse-parsers">Supervised Discourse Parsers</h5>
+
+<p>Our lab further contributed some of the top-performing, completely supervised discourse parsers to date. With the <a href="https://direct.mit.edu/coli/article/41/3/385/1522/CODRA-A-Novel-Discriminative-Framework-for">CODRA discourse parser</a> reaching state-of-the-art performance at the time using an optimal parsing algorithm with two Conditional Random Fields for intra-sentential and multi-sentential parsing.</p>
+
+<p>More recently, our neural discourse parser presented at <a href="https://aclanthology.org/2020.codi-1.17/">CODI 2020</a> based on the shift-reduce paradigm, using SpanBERT and an auxiliary coreference module reached the state-of-the-art performance for RST-style discourse parsing on RST-DT.</p>

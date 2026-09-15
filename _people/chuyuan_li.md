@@ -5,8 +5,8 @@ name: Chuyuan Li
 role: postdoc
 type: 
 img: chuyuan.jpg
-link: https://members.loria.fr/ChuyuanLi/
-research: NLP, Discourse, Dialogue, AI for healthcare
-status: active
+link: https://chuyuanli.github.io
+research: NLP, LLMs, Discourse, AI for healthcare
+status: inactive
 job: Postdoctoral Fellow
 ---

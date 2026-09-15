@@ -5,7 +5,8 @@ name: Farhan Samir
 type: PhD Student (Linguistics)
 role: student
 img: farhan_samir.jpg
-link: https://smfsamir.github.io/
+link: https://www.cs.toronto.edu/~fsamir/
 research: NLP, Computational Semantics
-status: active
+status: inactive
+job: Postdoctoral Fellow at the University of Toronto
 ---

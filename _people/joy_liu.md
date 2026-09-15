@@ -7,5 +7,6 @@ role: student
 img: joy_liu.png
 link: https://liuzz10.github.io/
 research: NLP
-status: active
+status: inactive
+job: 
 ---

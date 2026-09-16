@@ -7,5 +7,6 @@ role: student
 img: gagan_bhatia.png
 link: https://gagan3012.github.io/
 research: NLP, Deep Learning
-status: active
+status: inactive
+job: PhD student at University of Technology Nuremberg
 ---

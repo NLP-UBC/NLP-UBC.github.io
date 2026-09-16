@@ -8,5 +8,5 @@ img: chuyuan.jpg
 link: https://chuyuanli.github.io
 research: NLP, LLMs, Discourse, AI for healthcare
 status: inactive
-job: Postdoctoral Fellow
+job: CNRS Researcher at LIG, Grenoble, France
 ---

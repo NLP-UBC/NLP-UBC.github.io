@@ -7,5 +7,6 @@ role: student
 img: ife_adebara.jpg
 link:
 research: NLP, Deep Learning, Machine Translation, Low Resource Languages
-status: active
+status: inactive
+job: Assistant Professor at the University of Alberta
 ---

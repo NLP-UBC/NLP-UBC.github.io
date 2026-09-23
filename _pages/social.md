@@ -7,7 +7,7 @@ permalink: /social
 
 ##### A Selection of Recent Social Team Outings:
 
-|![NLP Lab BBQ](/assets/img/social/lab_bbq_2026.png){: .group_image .z-depth-2}|
+|![NLP Lab BBQ](/assets/img/social/lab_bbq_2026.jpg){: .group_image .z-depth-2}|
 |*NLP Lab BBQ (September 2026)*|
 {: .group_fullsize}
 
